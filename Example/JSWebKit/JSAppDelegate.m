@@ -7,12 +7,17 @@
 //
 
 #import "JSAppDelegate.h"
+#import <JSWebKit/EMAsyncDisplayViewController.h>
 
 @implementation JSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    EMAsyncDisplayViewController *web = EMAsyncDisplayViewController.new;
+    web.urlSting = @"https://www.huolisport.cn/";
+//    web.urlSting = @"http://test2.jiguangtiyu.com/test.html";
+    self.window.rootViewController = web;
     return YES;
 }
 

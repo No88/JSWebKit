@@ -1,0 +1,1022 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06E9AB426EEA3FA0A4B3F861E413FAD5 /* EMAsyncTabButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 19275AC0A33726E40EA5A855CAB777FC /* EMAsyncTabButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B6DBEAC2A4458E9A1DA89CF16C54D14 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = C05351C064A334D48E450F6491B58024 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DE6E3BFE50CC93FCFF81BEFA49A9895 /* Pods-JSWebKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DD1C9333B7C6AE774D45638506E743 /* Pods-JSWebKit_Example-dummy.m */; };
+		1011B56A9B0CB7846C1F4042D64EAB5F /* EMAsyncUtil_Web.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD9E28D6184E39A52ACCA5A0906FB61 /* EMAsyncUtil_Web.m */; };
+		1453B92B7D9053D2DA18FFF50642CCE2 /* EMAsyncReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FD92A5395DF3D7BCABB89DA7409BBC6B /* EMAsyncReachability.m */; };
+		1BB35CBAB7EF9E2BB2257FF9396DE067 /* EMAsyncProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = F4E239C1FCF69742517E4298B9260191 /* EMAsyncProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F704B9FF8E04E2E5A91E3348607FF97 /* EMAsyncConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2333AE6DAE09B6EFD17F67D4B8E8025A /* EMAsyncConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22378154E785BDF75F13798F5416E5BA /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 643F612338BBD1A4826964BC90EA31FC /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24640FA282EC6970B7E6E7CA1D95F997 /* EMAsyncNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 274217E6CC57E587CCF05B2948758C39 /* EMAsyncNetworkReachabilityManager.m */; };
+		26384F6613272771CE1159343E7CC012 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2CE5D8B3DB0BD93A35EFEB0B53CB22E1 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2A16B4A60D8CF5006E813AC0DC0CF3 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.m */; };
+		2D11959741A17AA630DE91523F2AEBD9 /* EMAsyncSonry.h in Headers */ = {isa = PBXBuildFile; fileRef = F3446C30F4DB75380CFF708D75E4AAC5 /* EMAsyncSonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		355C1322D49E55A8109704B9D547E2C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		38551383A25F09909A88EA02DE10EA61 /* EMAsyncEMAsyncView+EMAsyncAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 14C82A2EB07E494A64D0034BE7AFA303 /* EMAsyncEMAsyncView+EMAsyncAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BFF3A9D1B67777A5EEA6E8C1DEF8B51 /* EMAsyncDisplayViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D45FE9204C56C494020CC47F0C10F8C7 /* EMAsyncDisplayViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E98FAAFB30F95989565F7ADCA9030B6 /* EMAsyncObserverMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = 53C05A6C711F94F9203DF290B675139F /* EMAsyncObserverMgr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48F0DBE153B58C862482F4AB909FB31C /* EMAsyncConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 69245ECAFCAF4C385D9430D65D5BFF81 /* EMAsyncConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4992D1D353892FCE7E1A5F1329B155A4 /* EMAsyncCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4768673E75F8DC2C098DB54832724480 /* EMAsyncCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49FA90AAF4CFA0C5F031B14AAB756DAE /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CC73209E0F2308A921877969F8C98FE /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D20C64487204143FE68DCD9D6884D83 /* EMAsyncNSObject+SSDKProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C86D1608D9BBA8A8F22EAD1691B3D53 /* EMAsyncNSObject+SSDKProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		573B4DF8D579159699765783899B24E9 /* EMAsyncReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 305152A6CE43756480D4F35C7FAF894C /* EMAsyncReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59F2651A9ACBDD0BAA93EDA5DF36FD5B /* EMAsyncRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8965DD4EC53EE810CA1559060ABB4EB0 /* EMAsyncRadialGradientLayer.m */; };
+		5A70430DBF3E50E1A63D8B4D539E1600 /* EMAsyncSSDKProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BE3261EAED910BC621809093FFAEB73 /* EMAsyncSSDKProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ECD7EA5FC6DAA7EE07C94B50BC04414 /* EMAsyncEMAsyncViewController+EMAsyncAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CA9DE10C75C27069C03201C0FC01B5 /* EMAsyncEMAsyncViewController+EMAsyncAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F6FF08E628BEF3192161A7D0BBDE45E /* Pods-JSWebKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D22D228831CFE59EF8DB974CA0664B /* Pods-JSWebKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6094D7154E794AA4F4D2CB016D76F85E /* EMAsyncDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = C3D646A130E14165B464B78109DEC32D /* EMAsyncDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		638A2E0936BDD82BE343B230D961237C /* EMAsyncObserverMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = FA085C423A32491EB096BD4C2E00CC1F /* EMAsyncObserverMgr.m */; };
+		6591DD524F1643A67A70A50CCB42CD70 /* EMAsyncViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6AAED7A9491DFEEFE844888917111B /* EMAsyncViewConstraint.m */; };
+		662E664013F82F57A1554C5D5BB56974 /* EMAsyncEMAsyncViewController+EMAsyncAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D998CE8EB98D4899D9C096DB3E9CDB /* EMAsyncEMAsyncViewController+EMAsyncAdditions.m */; };
+		6836B5927E338DE843BE9ADCE8AB74A0 /* EMAsyncNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 75984B56B96E8B2A6559B48BFBF7C014 /* EMAsyncNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		714937C7235EBD111E54BEA83A3C7C38 /* EMAsyncUIView+DHQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BC589A4C200F5F1376F226F2131AFCA /* EMAsyncUIView+DHQExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80BFFDDA418D4F9A2EB5922A398B37D7 /* Pods-JSWebKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7ACA2E5BF8B8F2A1EAF3DA703D362A /* Pods-JSWebKit_Tests-dummy.m */; };
+		860E21C47687A4AB44F303331210A51E /* EMAsyncCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 687EEF735ADE7C28DA5C556DD971C460 /* EMAsyncCompositeConstraint.m */; };
+		8750CAA6E67EB647DCC049049C544F5C /* JSWebKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC76E9EBE57FB4BFFC045FDCCF31F257 /* JSWebKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9735208DBFF9FF3F4C054885A8D49000 /* EMAsyncUIButton+DHQStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = E85B838BF225336154B71EB016DC18E5 /* EMAsyncUIButton+DHQStyle.m */; };
+		99AEDF99798FE5514D68D9B6B4460A43 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5243F6B2E84C885812F2298AE0F3F8B4 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B3B1730458D184823AC7B7E3E5E566D /* EMAsyncUIButton+DHQStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = CA8735C7EE2DF4D5FE61ECDB6FB63B22 /* EMAsyncUIButton+DHQStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A136365CE67610F8B5D417A964967B0C /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 06BE25168DDEAC9CF1A56D97339E1A04 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5CBD0ED1C6D81319793C58708172F16 /* EMAsyncNSObject+SSDKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B8A4A58AD7ABFA47BFD11FDD34DE7 /* EMAsyncNSObject+SSDKProgressHUD.m */; };
+		ABD773A1B5D96626C5F540989B05AD56 /* EMAsyncSSDKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCE4D65146035BB98B976BF3E75FFA1 /* EMAsyncSSDKProgressHUD.m */; };
+		AE0FCBAC62955B14B23D92F873557188 /* EMAsyncIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = EB2E227F830E396267E4F3EE1745604C /* EMAsyncIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B172606811A8A82254936E4EBF09F5F0 /* EMAsyncProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE84424A671BDB0555D351FDF4BDF62 /* EMAsyncProgressAnimatedView.m */; };
+		BAA6E76734C6630FA9F5A4BEEF35E4B9 /* EMAsyncUIView+DHQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F915415497621D9DC56E93D6B81D3E62 /* EMAsyncUIView+DHQExtension.m */; };
+		C2B7A40858A3C5E58CC713228DF89887 /* EMAsyncViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 5343B6B1E8BD59B14A5D3C176FBB16ED /* EMAsyncViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C61E03D225E77F5ACBBBCC9703D137AB /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F97065C5F050D6A5DE3206CA989B9E77 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C992FACC7D7709BED79BF5D2113CBCE0 /* EMAsyncEMAsyncView+EMAsyncAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2970423C31402BF8469F664226E48968 /* EMAsyncEMAsyncView+EMAsyncAdditions.m */; };
+		CAC1C673B416A81F012E0CBDB5905FED /* EMAsyncConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C98CE65D0D1A8BC66E5C8B7E35252 /* EMAsyncConstraintMaker.m */; };
+		CC5DD14E52D3C42D59436B86B759D968 /* EMAsyncViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A63FE4F1A6E3784091EA05DEB891EA /* EMAsyncViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF36693E6F87CEDF2AADB86D8759AE58 /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FB22C6BEECB565FA3AE686294DF69E65 /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.m */; };
+		D831140DFC82E9BAE955498D9BA35F46 /* EMAsyncUtil_Web.h in Headers */ = {isa = PBXBuildFile; fileRef = F9D26554C0CC01A3534E43A914C884D5 /* EMAsyncUtil_Web.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC3EE030C351CA14815CF3F586CEC771 /* Pods-JSWebKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3349DB00C6F54BF29AF9274981645A /* Pods-JSWebKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE946812B460E20724422DD25F0A2674 /* EMAsyncIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CA69D5E4D1E3D3744E5A163BED8DA9 /* EMAsyncIndefiniteAnimatedView.m */; };
+		DFA4E749469DD977AE83D5DFEF248D39 /* EMAsyncDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D0E30D182E1E4DA94006C13C1D6167 /* EMAsyncDisplayViewController.m */; };
+		DFE6CEB1041BC25039428018E4B03475 /* EMAsyncTabButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4648F5FFF7580CF7E5431DA835EFCEA5 /* EMAsyncTabButton.m */; };
+		E39B363C16725FE74582A84E424F2152 /* EMAsyncLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 785CB5CC263723B026061415ABEBF274 /* EMAsyncLayoutConstraint.m */; };
+		E7AD124F16B96E64DA93FA9642AD4C63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E8C972B9D99760BD86357416859E9FD8 /* EMAsyncProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9ECF8D72781455527C0224B9A103C3 /* EMAsyncProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAD254C0D49BB0AE965D9AD7FD692030 /* EMAsyncConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C174DC5F7EF284C8958158E08FB870 /* EMAsyncConstraint.m */; };
+		EDB4B95AA0473228E7CAF02E21B1F750 /* EMAsyncViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 4441363110225BE1C5B55E9062B00FB7 /* EMAsyncViewAttribute.m */; };
+		F231FBFD0ADF00F33F6881B51009E03F /* EMAsyncHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EDFC8784841C29FB241E9504F79211F /* EMAsyncHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F55E8519F32AC81EA7FFD153E3A1A7C9 /* EMAsyncLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2179994274364DF1946680EE923F2A0E /* EMAsyncLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB676A2CF3CC53AC3BE7146FFF0B1CF5 /* EMAsyncRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1127112F1A7D46BC3FB68DE87A0AC2D1 /* EMAsyncRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC9A1CD59A47972690EF146D3EDA215D /* JSWebKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD12672ED054C072BD1B3CF8BF61BC0 /* JSWebKit-dummy.m */; };
+		FE6AC7613905EA8A5B5C2ECC979C03B1 /* EMAsyncProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6FF7C0183D21B60CD72B7A900237A1 /* EMAsyncProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		028F4DA786E80C433B3C91607E483111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2DC883D597B16E3CCB8C30A25E779CD;
+			remoteInfo = JSWebKit;
+		};
+		5B704D13B824152F0A690CD9F97BF552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FBE414BA329E47EB960AC2C7BC58009;
+			remoteInfo = "Pods-JSWebKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0423295273D2D55E69AFA45250BCD795 /* Pods-JSWebKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSWebKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		06BE25168DDEAC9CF1A56D97339E1A04 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		0E6FF7C0183D21B60CD72B7A900237A1 /* EMAsyncProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncProgressHUD.m; sourceTree = "<group>"; };
+		0F336AE3AAA60EC31AD1E6D368F5461D /* JSWebKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSWebKit-prefix.pch"; sourceTree = "<group>"; };
+		1127112F1A7D46BC3FB68DE87A0AC2D1 /* EMAsyncRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncRadialGradientLayer.h; sourceTree = "<group>"; };
+		14C82A2EB07E494A64D0034BE7AFA303 /* EMAsyncEMAsyncView+EMAsyncAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMAsyncEMAsyncView+EMAsyncAdditions.h"; sourceTree = "<group>"; };
+		19275AC0A33726E40EA5A855CAB777FC /* EMAsyncTabButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncTabButton.h; sourceTree = "<group>"; };
+		2179994274364DF1946680EE923F2A0E /* EMAsyncLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncLayoutConstraint.h; sourceTree = "<group>"; };
+		22AEE9BABFE67429CCA7B9C4A7FEEF81 /* Pods-JSWebKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSWebKit_Tests.modulemap"; sourceTree = "<group>"; };
+		2333AE6DAE09B6EFD17F67D4B8E8025A /* EMAsyncConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncConstraintMaker.h; sourceTree = "<group>"; };
+		274217E6CC57E587CCF05B2948758C39 /* EMAsyncNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		28F4724C921781FC06D0085AC0C0A529 /* JSWebKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSWebKit.xcconfig; sourceTree = "<group>"; };
+		2970423C31402BF8469F664226E48968 /* EMAsyncEMAsyncView+EMAsyncAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMAsyncEMAsyncView+EMAsyncAdditions.m"; sourceTree = "<group>"; };
+		2C9B8A4A58AD7ABFA47BFD11FDD34DE7 /* EMAsyncNSObject+SSDKProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMAsyncNSObject+SSDKProgressHUD.m"; sourceTree = "<group>"; };
+		2CD9E28D6184E39A52ACCA5A0906FB61 /* EMAsyncUtil_Web.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncUtil_Web.m; sourceTree = "<group>"; };
+		2D2A16B4A60D8CF5006E813AC0DC0CF3 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMAsyncEMAsyncNSArray+EMAsyncAdditions.m"; sourceTree = "<group>"; };
+		2E3349DB00C6F54BF29AF9274981645A /* Pods-JSWebKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSWebKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		305152A6CE43756480D4F35C7FAF894C /* EMAsyncReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncReachability.h; sourceTree = "<group>"; };
+		30A7282A45A2ED132854434A1AE3903C /* Pods_JSWebKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSWebKit_Tests.framework; path = "Pods-JSWebKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34D998CE8EB98D4899D9C096DB3E9CDB /* EMAsyncEMAsyncViewController+EMAsyncAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMAsyncEMAsyncViewController+EMAsyncAdditions.m"; sourceTree = "<group>"; };
+		36A63FE4F1A6E3784091EA05DEB891EA /* EMAsyncViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncViewConstraint.h; sourceTree = "<group>"; };
+		377DFBF1E685E2FAD353DD494A56BD63 /* Pods-JSWebKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSWebKit_Example.modulemap"; sourceTree = "<group>"; };
+		3BC589A4C200F5F1376F226F2131AFCA /* EMAsyncUIView+DHQExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMAsyncUIView+DHQExtension.h"; sourceTree = "<group>"; };
+		4441363110225BE1C5B55E9062B00FB7 /* EMAsyncViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncViewAttribute.m; sourceTree = "<group>"; };
+		4648F5FFF7580CF7E5431DA835EFCEA5 /* EMAsyncTabButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncTabButton.m; sourceTree = "<group>"; };
+		46B3BC4BF3C25D25B0ACB234D581A79F /* Pods-JSWebKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSWebKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4768673E75F8DC2C098DB54832724480 /* EMAsyncCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncCompositeConstraint.h; sourceTree = "<group>"; };
+		48CA69D5E4D1E3D3744E5A163BED8DA9 /* EMAsyncIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		499F561115811FA9355EE8B002F65F4B /* Pods-JSWebKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSWebKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4C86D1608D9BBA8A8F22EAD1691B3D53 /* EMAsyncNSObject+SSDKProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMAsyncNSObject+SSDKProgressHUD.h"; sourceTree = "<group>"; };
+		51D0E30D182E1E4DA94006C13C1D6167 /* EMAsyncDisplayViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncDisplayViewController.m; sourceTree = "<group>"; };
+		5243F6B2E84C885812F2298AE0F3F8B4 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMAsyncEMAsyncNSArray+EMAsyncAdditions.h"; sourceTree = "<group>"; };
+		5343B6B1E8BD59B14A5D3C176FBB16ED /* EMAsyncViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncViewAttribute.h; sourceTree = "<group>"; };
+		534F6003F698D1C6C5DEB39B46E14683 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		53C05A6C711F94F9203DF290B675139F /* EMAsyncObserverMgr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncObserverMgr.h; sourceTree = "<group>"; };
+		56DD1C9333B7C6AE774D45638506E743 /* Pods-JSWebKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSWebKit_Example-dummy.m"; sourceTree = "<group>"; };
+		5EDFC8784841C29FB241E9504F79211F /* EMAsyncHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMAsyncHeader.h; path = JSWebKit/Classes/EMAsyncHeader.h; sourceTree = "<group>"; };
+		643F612338BBD1A4826964BC90EA31FC /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		687EEF735ADE7C28DA5C556DD971C460 /* EMAsyncCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncCompositeConstraint.m; sourceTree = "<group>"; };
+		69245ECAFCAF4C385D9430D65D5BFF81 /* EMAsyncConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncConstraint.h; sourceTree = "<group>"; };
+		6C5B2A628C81F10CB608AA8AF0E75534 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6CC73209E0F2308A921877969F8C98FE /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.h"; sourceTree = "<group>"; };
+		75984B56B96E8B2A6559B48BFBF7C014 /* EMAsyncNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		785CB5CC263723B026061415ABEBF274 /* EMAsyncLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncLayoutConstraint.m; sourceTree = "<group>"; };
+		7DCE4D65146035BB98B976BF3E75FFA1 /* EMAsyncSSDKProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncSSDKProgressHUD.m; sourceTree = "<group>"; };
+		8965DD4EC53EE810CA1559060ABB4EB0 /* EMAsyncRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncRadialGradientLayer.m; sourceTree = "<group>"; };
+		8C7ACA2E5BF8B8F2A1EAF3DA703D362A /* Pods-JSWebKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSWebKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		92CA9DE10C75C27069C03201C0FC01B5 /* EMAsyncEMAsyncViewController+EMAsyncAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMAsyncEMAsyncViewController+EMAsyncAdditions.h"; sourceTree = "<group>"; };
+		9450015DC893CED5C6B4573180117E0A /* Pods-JSWebKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSWebKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B63A95DC598E540BEA31E33300C83AA /* Pods-JSWebKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSWebKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BE3261EAED910BC621809093FFAEB73 /* EMAsyncSSDKProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncSSDKProgressHUD.h; sourceTree = "<group>"; };
+		9C04C6BB40B89C257E94EE1B3926314D /* JSWebKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JSWebKit-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0B8383CA820FBFCC155AC05A5EEDC14 /* JSWebKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSWebKit.modulemap; sourceTree = "<group>"; };
+		A52288951894F2AF74D8D08481FFB873 /* JSWebKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JSWebKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A653D37D33DAA6DA67E2DF2C7AC4E382 /* Pods-JSWebKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSWebKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ACD12672ED054C072BD1B3CF8BF61BC0 /* JSWebKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSWebKit-dummy.m"; sourceTree = "<group>"; };
+		B1D22D228831CFE59EF8DB974CA0664B /* Pods-JSWebKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSWebKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		B1E05DA4EE4FA989E7EA16A30765085A /* Pods-JSWebKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSWebKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		B45B964F1B70EADA029E3D9E87B6EF46 /* Pods_JSWebKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSWebKit_Example.framework; path = "Pods-JSWebKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC76E9EBE57FB4BFFC045FDCCF31F257 /* JSWebKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSWebKit-umbrella.h"; sourceTree = "<group>"; };
+		BFE84424A671BDB0555D351FDF4BDF62 /* EMAsyncProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncProgressAnimatedView.m; sourceTree = "<group>"; };
+		C05351C064A334D48E450F6491B58024 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		C0EB61493AE8806204C9FFA8898B4560 /* Pods-JSWebKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSWebKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C1A3E68AB662E3A288BF8E4A17EE15F9 /* Pods-JSWebKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSWebKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C3D646A130E14165B464B78109DEC32D /* EMAsyncDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMAsyncDefine.h; path = JSWebKit/Classes/EMAsyncDefine.h; sourceTree = "<group>"; };
+		CA8735C7EE2DF4D5FE61ECDB6FB63B22 /* EMAsyncUIButton+DHQStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMAsyncUIButton+DHQStyle.h"; sourceTree = "<group>"; };
+		D35C98CE65D0D1A8BC66E5C8B7E35252 /* EMAsyncConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncConstraintMaker.m; sourceTree = "<group>"; };
+		D45FE9204C56C494020CC47F0C10F8C7 /* EMAsyncDisplayViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncDisplayViewController.h; sourceTree = "<group>"; };
+		DA096A306FA0BDDF77B5AC9FEF10C531 /* Pods-JSWebKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSWebKit_Example-Info.plist"; sourceTree = "<group>"; };
+		DA9ECF8D72781455527C0224B9A103C3 /* EMAsyncProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncProgressAnimatedView.h; sourceTree = "<group>"; };
+		DD6AAED7A9491DFEEFE844888917111B /* EMAsyncViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncViewConstraint.m; sourceTree = "<group>"; };
+		E3E68A0D639E43330D8FE1AA03879336 /* Pods-JSWebKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSWebKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E85B838BF225336154B71EB016DC18E5 /* EMAsyncUIButton+DHQStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMAsyncUIButton+DHQStyle.m"; sourceTree = "<group>"; };
+		EB2E227F830E396267E4F3EE1745604C /* EMAsyncIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		F3446C30F4DB75380CFF708D75E4AAC5 /* EMAsyncSonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncSonry.h; sourceTree = "<group>"; };
+		F4E239C1FCF69742517E4298B9260191 /* EMAsyncProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncProgressHUD.h; sourceTree = "<group>"; };
+		F8C174DC5F7EF284C8958158E08FB870 /* EMAsyncConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncConstraint.m; sourceTree = "<group>"; };
+		F915415497621D9DC56E93D6B81D3E62 /* EMAsyncUIView+DHQExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMAsyncUIView+DHQExtension.m"; sourceTree = "<group>"; };
+		F97065C5F050D6A5DE3206CA989B9E77 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F9D26554C0CC01A3534E43A914C884D5 /* EMAsyncUtil_Web.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncUtil_Web.h; sourceTree = "<group>"; };
+		FA085C423A32491EB096BD4C2E00CC1F /* EMAsyncObserverMgr.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncObserverMgr.m; sourceTree = "<group>"; };
+		FB22C6BEECB565FA3AE686294DF69E65 /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.m"; sourceTree = "<group>"; };
+		FD92A5395DF3D7BCABB89DA7409BBC6B /* EMAsyncReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncReachability.m; sourceTree = "<group>"; };
+		FF3208A52E644C71308556B1F6A627FB /* JSWebKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSWebKit.framework; path = JSWebKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50F71DC5C9827FBF95569AC7F3BA734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26384F6613272771CE1159343E7CC012 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F002C6D1E3CC6359F36D0EC146011A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355C1322D49E55A8109704B9D547E2C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADA492DFDE5914E06C8DA7F0FFEFBA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7AD124F16B96E64DA93FA9642AD4C63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		221BAABE80E6B24619E105DE0AF1A728 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0B8383CA820FBFCC155AC05A5EEDC14 /* JSWebKit.modulemap */,
+				28F4724C921781FC06D0085AC0C0A529 /* JSWebKit.xcconfig */,
+				ACD12672ED054C072BD1B3CF8BF61BC0 /* JSWebKit-dummy.m */,
+				9C04C6BB40B89C257E94EE1B3926314D /* JSWebKit-Info.plist */,
+				0F336AE3AAA60EC31AD1E6D368F5461D /* JSWebKit-prefix.pch */,
+				BC76E9EBE57FB4BFFC045FDCCF31F257 /* JSWebKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JSWebKit";
+			sourceTree = "<group>";
+		};
+		385C6DA275EA2930F059E84FDAAD94DA /* EMAsync */ = {
+			isa = PBXGroup;
+			children = (
+				D45FE9204C56C494020CC47F0C10F8C7 /* EMAsyncDisplayViewController.h */,
+				51D0E30D182E1E4DA94006C13C1D6167 /* EMAsyncDisplayViewController.m */,
+				75984B56B96E8B2A6559B48BFBF7C014 /* EMAsyncNetworkReachabilityManager.h */,
+				274217E6CC57E587CCF05B2948758C39 /* EMAsyncNetworkReachabilityManager.m */,
+				53C05A6C711F94F9203DF290B675139F /* EMAsyncObserverMgr.h */,
+				FA085C423A32491EB096BD4C2E00CC1F /* EMAsyncObserverMgr.m */,
+				305152A6CE43756480D4F35C7FAF894C /* EMAsyncReachability.h */,
+				FD92A5395DF3D7BCABB89DA7409BBC6B /* EMAsyncReachability.m */,
+				19275AC0A33726E40EA5A855CAB777FC /* EMAsyncTabButton.h */,
+				4648F5FFF7580CF7E5431DA835EFCEA5 /* EMAsyncTabButton.m */,
+				CA8735C7EE2DF4D5FE61ECDB6FB63B22 /* EMAsyncUIButton+DHQStyle.h */,
+				E85B838BF225336154B71EB016DC18E5 /* EMAsyncUIButton+DHQStyle.m */,
+				3BC589A4C200F5F1376F226F2131AFCA /* EMAsyncUIView+DHQExtension.h */,
+				F915415497621D9DC56E93D6B81D3E62 /* EMAsyncUIView+DHQExtension.m */,
+				F9D26554C0CC01A3534E43A914C884D5 /* EMAsyncUtil_Web.h */,
+				2CD9E28D6184E39A52ACCA5A0906FB61 /* EMAsyncUtil_Web.m */,
+			);
+			name = EMAsync;
+			path = JSWebKit/Classes/EMAsync;
+			sourceTree = "<group>";
+		};
+		5EAE1F45DBDB747912721569BCE08572 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A52288951894F2AF74D8D08481FFB873 /* JSWebKit.podspec */,
+				534F6003F698D1C6C5DEB39B46E14683 /* LICENSE */,
+				6C5B2A628C81F10CB608AA8AF0E75534 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		90E04B96E75854D6201F287E71F4AC05 /* JSWebKit */ = {
+			isa = PBXGroup;
+			children = (
+				C3D646A130E14165B464B78109DEC32D /* EMAsyncDefine.h */,
+				5EDFC8784841C29FB241E9504F79211F /* EMAsyncHeader.h */,
+				385C6DA275EA2930F059E84FDAAD94DA /* EMAsync */,
+				CB53BDB2C524D53E438F03660089C8F4 /* Lib */,
+				5EAE1F45DBDB747912721569BCE08572 /* Pod */,
+				221BAABE80E6B24619E105DE0AF1A728 /* Support Files */,
+			);
+			name = JSWebKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A9D26F6AFBD8ED0FF70C72C42745839D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF3208A52E644C71308556B1F6A627FB /* JSWebKit.framework */,
+				B45B964F1B70EADA029E3D9E87B6EF46 /* Pods_JSWebKit_Example.framework */,
+				30A7282A45A2ED132854434A1AE3903C /* Pods_JSWebKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1BB7A57861E5633105822BBB7BB874E /* SSDKMAS */ = {
+			isa = PBXGroup;
+			children = (
+				4768673E75F8DC2C098DB54832724480 /* EMAsyncCompositeConstraint.h */,
+				687EEF735ADE7C28DA5C556DD971C460 /* EMAsyncCompositeConstraint.m */,
+				69245ECAFCAF4C385D9430D65D5BFF81 /* EMAsyncConstraint.h */,
+				F8C174DC5F7EF284C8958158E08FB870 /* EMAsyncConstraint.m */,
+				2333AE6DAE09B6EFD17F67D4B8E8025A /* EMAsyncConstraintMaker.h */,
+				D35C98CE65D0D1A8BC66E5C8B7E35252 /* EMAsyncConstraintMaker.m */,
+				5243F6B2E84C885812F2298AE0F3F8B4 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.h */,
+				2D2A16B4A60D8CF5006E813AC0DC0CF3 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.m */,
+				6CC73209E0F2308A921877969F8C98FE /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.h */,
+				FB22C6BEECB565FA3AE686294DF69E65 /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.m */,
+				14C82A2EB07E494A64D0034BE7AFA303 /* EMAsyncEMAsyncView+EMAsyncAdditions.h */,
+				2970423C31402BF8469F664226E48968 /* EMAsyncEMAsyncView+EMAsyncAdditions.m */,
+				92CA9DE10C75C27069C03201C0FC01B5 /* EMAsyncEMAsyncViewController+EMAsyncAdditions.h */,
+				34D998CE8EB98D4899D9C096DB3E9CDB /* EMAsyncEMAsyncViewController+EMAsyncAdditions.m */,
+				2179994274364DF1946680EE923F2A0E /* EMAsyncLayoutConstraint.h */,
+				785CB5CC263723B026061415ABEBF274 /* EMAsyncLayoutConstraint.m */,
+				F3446C30F4DB75380CFF708D75E4AAC5 /* EMAsyncSonry.h */,
+				5343B6B1E8BD59B14A5D3C176FBB16ED /* EMAsyncViewAttribute.h */,
+				4441363110225BE1C5B55E9062B00FB7 /* EMAsyncViewAttribute.m */,
+				36A63FE4F1A6E3784091EA05DEB891EA /* EMAsyncViewConstraint.h */,
+				DD6AAED7A9491DFEEFE844888917111B /* EMAsyncViewConstraint.m */,
+				06BE25168DDEAC9CF1A56D97339E1A04 /* MASConstraint+Private.h */,
+				C05351C064A334D48E450F6491B58024 /* MASUtilities.h */,
+				643F612338BBD1A4826964BC90EA31FC /* NSArray+MASShorthandAdditions.h */,
+				F97065C5F050D6A5DE3206CA989B9E77 /* View+MASShorthandAdditions.h */,
+			);
+			name = SSDKMAS;
+			path = SSDKMAS;
+			sourceTree = "<group>";
+		};
+		CB53BDB2C524D53E438F03660089C8F4 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				E528B68E301A6502797C19E5034C2696 /* ProgressHUD */,
+				C1BB7A57861E5633105822BBB7BB874E /* SSDKMAS */,
+			);
+			name = Lib;
+			path = JSWebKit/Classes/Lib;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				EAEBEB2C74DFEFC9D26D453015F4589B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A9D26F6AFBD8ED0FF70C72C42745839D /* Products */,
+				D5249A38DD9C56B5E18FA10EF8E17A8E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D39C6E176D304196D370769F2ED27273 /* Pods-JSWebKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				22AEE9BABFE67429CCA7B9C4A7FEEF81 /* Pods-JSWebKit_Tests.modulemap */,
+				E3E68A0D639E43330D8FE1AA03879336 /* Pods-JSWebKit_Tests-acknowledgements.markdown */,
+				9450015DC893CED5C6B4573180117E0A /* Pods-JSWebKit_Tests-acknowledgements.plist */,
+				8C7ACA2E5BF8B8F2A1EAF3DA703D362A /* Pods-JSWebKit_Tests-dummy.m */,
+				B1E05DA4EE4FA989E7EA16A30765085A /* Pods-JSWebKit_Tests-Info.plist */,
+				2E3349DB00C6F54BF29AF9274981645A /* Pods-JSWebKit_Tests-umbrella.h */,
+				9B63A95DC598E540BEA31E33300C83AA /* Pods-JSWebKit_Tests.debug.xcconfig */,
+				46B3BC4BF3C25D25B0ACB234D581A79F /* Pods-JSWebKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-JSWebKit_Tests";
+			path = "Target Support Files/Pods-JSWebKit_Tests";
+			sourceTree = "<group>";
+		};
+		D5249A38DD9C56B5E18FA10EF8E17A8E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9B8BC89C80A0E68BCA724F2AB641839 /* Pods-JSWebKit_Example */,
+				D39C6E176D304196D370769F2ED27273 /* Pods-JSWebKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D9B8BC89C80A0E68BCA724F2AB641839 /* Pods-JSWebKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				377DFBF1E685E2FAD353DD494A56BD63 /* Pods-JSWebKit_Example.modulemap */,
+				499F561115811FA9355EE8B002F65F4B /* Pods-JSWebKit_Example-acknowledgements.markdown */,
+				0423295273D2D55E69AFA45250BCD795 /* Pods-JSWebKit_Example-acknowledgements.plist */,
+				56DD1C9333B7C6AE774D45638506E743 /* Pods-JSWebKit_Example-dummy.m */,
+				C1A3E68AB662E3A288BF8E4A17EE15F9 /* Pods-JSWebKit_Example-frameworks.sh */,
+				DA096A306FA0BDDF77B5AC9FEF10C531 /* Pods-JSWebKit_Example-Info.plist */,
+				B1D22D228831CFE59EF8DB974CA0664B /* Pods-JSWebKit_Example-umbrella.h */,
+				A653D37D33DAA6DA67E2DF2C7AC4E382 /* Pods-JSWebKit_Example.debug.xcconfig */,
+				C0EB61493AE8806204C9FFA8898B4560 /* Pods-JSWebKit_Example.release.xcconfig */,
+			);
+			name = "Pods-JSWebKit_Example";
+			path = "Target Support Files/Pods-JSWebKit_Example";
+			sourceTree = "<group>";
+		};
+		E528B68E301A6502797C19E5034C2696 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				EB2E227F830E396267E4F3EE1745604C /* EMAsyncIndefiniteAnimatedView.h */,
+				48CA69D5E4D1E3D3744E5A163BED8DA9 /* EMAsyncIndefiniteAnimatedView.m */,
+				4C86D1608D9BBA8A8F22EAD1691B3D53 /* EMAsyncNSObject+SSDKProgressHUD.h */,
+				2C9B8A4A58AD7ABFA47BFD11FDD34DE7 /* EMAsyncNSObject+SSDKProgressHUD.m */,
+				DA9ECF8D72781455527C0224B9A103C3 /* EMAsyncProgressAnimatedView.h */,
+				BFE84424A671BDB0555D351FDF4BDF62 /* EMAsyncProgressAnimatedView.m */,
+				F4E239C1FCF69742517E4298B9260191 /* EMAsyncProgressHUD.h */,
+				0E6FF7C0183D21B60CD72B7A900237A1 /* EMAsyncProgressHUD.m */,
+				1127112F1A7D46BC3FB68DE87A0AC2D1 /* EMAsyncRadialGradientLayer.h */,
+				8965DD4EC53EE810CA1559060ABB4EB0 /* EMAsyncRadialGradientLayer.m */,
+				9BE3261EAED910BC621809093FFAEB73 /* EMAsyncSSDKProgressHUD.h */,
+				7DCE4D65146035BB98B976BF3E75FFA1 /* EMAsyncSSDKProgressHUD.m */,
+			);
+			name = ProgressHUD;
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		EAEBEB2C74DFEFC9D26D453015F4589B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90E04B96E75854D6201F287E71F4AC05 /* JSWebKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2D32505C12BA76D333703D48288F0E6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3EE030C351CA14815CF3F586CEC771 /* Pods-JSWebKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE91924E5542A29DEBC3F46DF394950 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4992D1D353892FCE7E1A5F1329B155A4 /* EMAsyncCompositeConstraint.h in Headers */,
+				48F0DBE153B58C862482F4AB909FB31C /* EMAsyncConstraint.h in Headers */,
+				1F704B9FF8E04E2E5A91E3348607FF97 /* EMAsyncConstraintMaker.h in Headers */,
+				6094D7154E794AA4F4D2CB016D76F85E /* EMAsyncDefine.h in Headers */,
+				3BFF3A9D1B67777A5EEA6E8C1DEF8B51 /* EMAsyncDisplayViewController.h in Headers */,
+				99AEDF99798FE5514D68D9B6B4460A43 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.h in Headers */,
+				49FA90AAF4CFA0C5F031B14AAB756DAE /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.h in Headers */,
+				38551383A25F09909A88EA02DE10EA61 /* EMAsyncEMAsyncView+EMAsyncAdditions.h in Headers */,
+				5ECD7EA5FC6DAA7EE07C94B50BC04414 /* EMAsyncEMAsyncViewController+EMAsyncAdditions.h in Headers */,
+				F231FBFD0ADF00F33F6881B51009E03F /* EMAsyncHeader.h in Headers */,
+				AE0FCBAC62955B14B23D92F873557188 /* EMAsyncIndefiniteAnimatedView.h in Headers */,
+				F55E8519F32AC81EA7FFD153E3A1A7C9 /* EMAsyncLayoutConstraint.h in Headers */,
+				6836B5927E338DE843BE9ADCE8AB74A0 /* EMAsyncNetworkReachabilityManager.h in Headers */,
+				4D20C64487204143FE68DCD9D6884D83 /* EMAsyncNSObject+SSDKProgressHUD.h in Headers */,
+				3E98FAAFB30F95989565F7ADCA9030B6 /* EMAsyncObserverMgr.h in Headers */,
+				E8C972B9D99760BD86357416859E9FD8 /* EMAsyncProgressAnimatedView.h in Headers */,
+				1BB35CBAB7EF9E2BB2257FF9396DE067 /* EMAsyncProgressHUD.h in Headers */,
+				FB676A2CF3CC53AC3BE7146FFF0B1CF5 /* EMAsyncRadialGradientLayer.h in Headers */,
+				573B4DF8D579159699765783899B24E9 /* EMAsyncReachability.h in Headers */,
+				2D11959741A17AA630DE91523F2AEBD9 /* EMAsyncSonry.h in Headers */,
+				5A70430DBF3E50E1A63D8B4D539E1600 /* EMAsyncSSDKProgressHUD.h in Headers */,
+				06E9AB426EEA3FA0A4B3F861E413FAD5 /* EMAsyncTabButton.h in Headers */,
+				9B3B1730458D184823AC7B7E3E5E566D /* EMAsyncUIButton+DHQStyle.h in Headers */,
+				714937C7235EBD111E54BEA83A3C7C38 /* EMAsyncUIView+DHQExtension.h in Headers */,
+				D831140DFC82E9BAE955498D9BA35F46 /* EMAsyncUtil_Web.h in Headers */,
+				C2B7A40858A3C5E58CC713228DF89887 /* EMAsyncViewAttribute.h in Headers */,
+				CC5DD14E52D3C42D59436B86B759D968 /* EMAsyncViewConstraint.h in Headers */,
+				8750CAA6E67EB647DCC049049C544F5C /* JSWebKit-umbrella.h in Headers */,
+				A136365CE67610F8B5D417A964967B0C /* MASConstraint+Private.h in Headers */,
+				0B6DBEAC2A4458E9A1DA89CF16C54D14 /* MASUtilities.h in Headers */,
+				22378154E785BDF75F13798F5416E5BA /* NSArray+MASShorthandAdditions.h in Headers */,
+				C61E03D225E77F5ACBBBCC9703D137AB /* View+MASShorthandAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747E4156ACDFB91F9DB4860E02F65C7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6FF08E628BEF3192161A7D0BBDE45E /* Pods-JSWebKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6FBE414BA329E47EB960AC2C7BC58009 /* Pods-JSWebKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CB903E86F3022A31F338898106854B9 /* Build configuration list for PBXNativeTarget "Pods-JSWebKit_Example" */;
+			buildPhases = (
+				747E4156ACDFB91F9DB4860E02F65C7D /* Headers */,
+				49129E0C6DE0E961367EE0DB503EEE6B /* Sources */,
+				F002C6D1E3CC6359F36D0EC146011A94 /* Frameworks */,
+				1955072DDA03B2E2E91168D50094672A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71AEC1D3B61BE5766734D79FC30117F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-JSWebKit_Example";
+			productName = "Pods-JSWebKit_Example";
+			productReference = B45B964F1B70EADA029E3D9E87B6EF46 /* Pods_JSWebKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD6A975C33240668967F0403B2A5E068 /* Pods-JSWebKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBADF3433ECD62872A58756CB60E93DD /* Build configuration list for PBXNativeTarget "Pods-JSWebKit_Tests" */;
+			buildPhases = (
+				2D32505C12BA76D333703D48288F0E6C /* Headers */,
+				231631AEBBB6BD4E54DB892A5FFBF9F4 /* Sources */,
+				FADA492DFDE5914E06C8DA7F0FFEFBA7 /* Frameworks */,
+				4BD695CAE5829E8521DDFC077AEE79AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FC83EDC079E23590A2C7E5247BB3ADB /* PBXTargetDependency */,
+			);
+			name = "Pods-JSWebKit_Tests";
+			productName = "Pods-JSWebKit_Tests";
+			productReference = 30A7282A45A2ED132854434A1AE3903C /* Pods_JSWebKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2DC883D597B16E3CCB8C30A25E779CD /* JSWebKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DFA2471559EC15BADEC0B901DB92458 /* Build configuration list for PBXNativeTarget "JSWebKit" */;
+			buildPhases = (
+				2EE91924E5542A29DEBC3F46DF394950 /* Headers */,
+				2D7B2C9104C0CA629C9E08CCB6D46369 /* Sources */,
+				A50F71DC5C9827FBF95569AC7F3BA734 /* Frameworks */,
+				C2F6FD3960DF95688EFD9897E88C12E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSWebKit;
+			productName = JSWebKit;
+			productReference = FF3208A52E644C71308556B1F6A627FB /* JSWebKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A9D26F6AFBD8ED0FF70C72C42745839D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2DC883D597B16E3CCB8C30A25E779CD /* JSWebKit */,
+				6FBE414BA329E47EB960AC2C7BC58009 /* Pods-JSWebKit_Example */,
+				AD6A975C33240668967F0403B2A5E068 /* Pods-JSWebKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1955072DDA03B2E2E91168D50094672A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD695CAE5829E8521DDFC077AEE79AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F6FD3960DF95688EFD9897E88C12E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		231631AEBBB6BD4E54DB892A5FFBF9F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80BFFDDA418D4F9A2EB5922A398B37D7 /* Pods-JSWebKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D7B2C9104C0CA629C9E08CCB6D46369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860E21C47687A4AB44F303331210A51E /* EMAsyncCompositeConstraint.m in Sources */,
+				EAD254C0D49BB0AE965D9AD7FD692030 /* EMAsyncConstraint.m in Sources */,
+				CAC1C673B416A81F012E0CBDB5905FED /* EMAsyncConstraintMaker.m in Sources */,
+				DFA4E749469DD977AE83D5DFEF248D39 /* EMAsyncDisplayViewController.m in Sources */,
+				2CE5D8B3DB0BD93A35EFEB0B53CB22E1 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.m in Sources */,
+				CF36693E6F87CEDF2AADB86D8759AE58 /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.m in Sources */,
+				C992FACC7D7709BED79BF5D2113CBCE0 /* EMAsyncEMAsyncView+EMAsyncAdditions.m in Sources */,
+				662E664013F82F57A1554C5D5BB56974 /* EMAsyncEMAsyncViewController+EMAsyncAdditions.m in Sources */,
+				DE946812B460E20724422DD25F0A2674 /* EMAsyncIndefiniteAnimatedView.m in Sources */,
+				E39B363C16725FE74582A84E424F2152 /* EMAsyncLayoutConstraint.m in Sources */,
+				24640FA282EC6970B7E6E7CA1D95F997 /* EMAsyncNetworkReachabilityManager.m in Sources */,
+				A5CBD0ED1C6D81319793C58708172F16 /* EMAsyncNSObject+SSDKProgressHUD.m in Sources */,
+				638A2E0936BDD82BE343B230D961237C /* EMAsyncObserverMgr.m in Sources */,
+				B172606811A8A82254936E4EBF09F5F0 /* EMAsyncProgressAnimatedView.m in Sources */,
+				FE6AC7613905EA8A5B5C2ECC979C03B1 /* EMAsyncProgressHUD.m in Sources */,
+				59F2651A9ACBDD0BAA93EDA5DF36FD5B /* EMAsyncRadialGradientLayer.m in Sources */,
+				1453B92B7D9053D2DA18FFF50642CCE2 /* EMAsyncReachability.m in Sources */,
+				ABD773A1B5D96626C5F540989B05AD56 /* EMAsyncSSDKProgressHUD.m in Sources */,
+				DFE6CEB1041BC25039428018E4B03475 /* EMAsyncTabButton.m in Sources */,
+				9735208DBFF9FF3F4C054885A8D49000 /* EMAsyncUIButton+DHQStyle.m in Sources */,
+				BAA6E76734C6630FA9F5A4BEEF35E4B9 /* EMAsyncUIView+DHQExtension.m in Sources */,
+				1011B56A9B0CB7846C1F4042D64EAB5F /* EMAsyncUtil_Web.m in Sources */,
+				EDB4B95AA0473228E7CAF02E21B1F750 /* EMAsyncViewAttribute.m in Sources */,
+				6591DD524F1643A67A70A50CCB42CD70 /* EMAsyncViewConstraint.m in Sources */,
+				FC9A1CD59A47972690EF146D3EDA215D /* JSWebKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49129E0C6DE0E961367EE0DB503EEE6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE6E3BFE50CC93FCFF81BEFA49A9895 /* Pods-JSWebKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FC83EDC079E23590A2C7E5247BB3ADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JSWebKit_Example";
+			target = 6FBE414BA329E47EB960AC2C7BC58009 /* Pods-JSWebKit_Example */;
+			targetProxy = 5B704D13B824152F0A690CD9F97BF552 /* PBXContainerItemProxy */;
+		};
+		71AEC1D3B61BE5766734D79FC30117F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSWebKit;
+			target = F2DC883D597B16E3CCB8C30A25E779CD /* JSWebKit */;
+			targetProxy = 028F4DA786E80C433B3C91607E483111 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CC1792A8805279D3C033A9322545BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28F4724C921781FC06D0085AC0C0A529 /* JSWebKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSWebKit/JSWebKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSWebKit/JSWebKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSWebKit/JSWebKit.modulemap";
+				PRODUCT_MODULE_NAME = JSWebKit;
+				PRODUCT_NAME = JSWebKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3113ED7FC03E160A70B8ADA14A37F4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0EB61493AE8806204C9FFA8898B4560 /* Pods-JSWebKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSWebKit_Example/Pods-JSWebKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSWebKit_Example/Pods-JSWebKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49A3F4787AB8D5AFE520171192E5E394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B63A95DC598E540BEA31E33300C83AA /* Pods-JSWebKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSWebKit_Tests/Pods-JSWebKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSWebKit_Tests/Pods-JSWebKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8D8135857578DA5C8C7A28AA7C39E18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A653D37D33DAA6DA67E2DF2C7AC4E382 /* Pods-JSWebKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSWebKit_Example/Pods-JSWebKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSWebKit_Example/Pods-JSWebKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5F1FFBCB3F373FD9626639150B9DA5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28F4724C921781FC06D0085AC0C0A529 /* JSWebKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSWebKit/JSWebKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSWebKit/JSWebKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSWebKit/JSWebKit.modulemap";
+				PRODUCT_MODULE_NAME = JSWebKit;
+				PRODUCT_NAME = JSWebKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6B5957A1502CD10AAEEA06F337E55E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46B3BC4BF3C25D25B0ACB234D581A79F /* Pods-JSWebKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSWebKit_Tests/Pods-JSWebKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSWebKit_Tests/Pods-JSWebKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CB903E86F3022A31F338898106854B9 /* Build configuration list for PBXNativeTarget "Pods-JSWebKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D8135857578DA5C8C7A28AA7C39E18D /* Debug */,
+				3113ED7FC03E160A70B8ADA14A37F4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DFA2471559EC15BADEC0B901DB92458 /* Build configuration list for PBXNativeTarget "JSWebKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC1792A8805279D3C033A9322545BFC /* Debug */,
+				E5F1FFBCB3F373FD9626639150B9DA5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBADF3433ECD62872A58756CB60E93DD /* Build configuration list for PBXNativeTarget "Pods-JSWebKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A3F4787AB8D5AFE520171192E5E394 /* Debug */,
+				E6B5957A1502CD10AAEEA06F337E55E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

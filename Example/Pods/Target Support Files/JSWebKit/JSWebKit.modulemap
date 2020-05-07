@@ -1,0 +1,6 @@
+framework module JSWebKit {
+  umbrella header "JSWebKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
