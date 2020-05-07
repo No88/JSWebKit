@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'JSWebKit_Example' do
+  pod 'JSWebKit', :path => '../'
+
+  target 'JSWebKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
