@@ -7,70 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06E9AB426EEA3FA0A4B3F861E413FAD5 /* EMAsyncTabButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 19275AC0A33726E40EA5A855CAB777FC /* EMAsyncTabButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B6DBEAC2A4458E9A1DA89CF16C54D14 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = C05351C064A334D48E450F6491B58024 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02244A40366B035B799E73064FFC50DA /* EMAsync_cc@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A278AE3262EB88B754A7829D40C3FA /* EMAsync_cc@3x.png */; };
+		045D6752FD452F763CF81C8C649CCC67 /* EMAsyncEMAsyncViewController+EMAsyncAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6212A389C8BC63920BF940929CD1FBAC /* EMAsyncEMAsyncViewController+EMAsyncAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		072DAA0D37AF533AF5479471F4164867 /* EMAsyncNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 402402B7CC9CA06E82C4BE60FD07D8D5 /* EMAsyncNetworkReachabilityManager.m */; };
+		076B805CB61B354D67B9CFF26C92EC18 /* EMAsyncProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A34314585669F1B1BA6879AA68970C6 /* EMAsyncProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0919D04BD8AE1382D81A08F8E2FCE36C /* EMAsync_gg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A69D65A9605395C121C19FC0EA8A054 /* EMAsync_gg@3x.png */; };
+		095C77AA8B4CE39C9D01E834D31EF548 /* EMAsync_mw@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08D5E2048AA7F2BC85E879A82145E7B9 /* EMAsync_mw@1x.png */; };
+		0A3344713A99347FD3C02E261B8F5510 /* EMAsyncViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 41AA6AF1179AE752C89F720015494E00 /* EMAsyncViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A461AD42032A2DF40F9E600120DA592 /* EMAsync_ProgressHUD_error@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D88EDA35ED4BC6C9EAF7C76806960B /* EMAsync_ProgressHUD_error@1x.png */; };
+		0B520A62451FD12C4EBD0664EE6082C2 /* EMAsync_ProgressHUD_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64487CAFEBC00AC664FA5BA80459B2F8 /* EMAsync_ProgressHUD_info@2x.png */; };
 		0DE6E3BFE50CC93FCFF81BEFA49A9895 /* Pods-JSWebKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DD1C9333B7C6AE774D45638506E743 /* Pods-JSWebKit_Example-dummy.m */; };
-		1011B56A9B0CB7846C1F4042D64EAB5F /* EMAsyncUtil_Web.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD9E28D6184E39A52ACCA5A0906FB61 /* EMAsyncUtil_Web.m */; };
-		1453B92B7D9053D2DA18FFF50642CCE2 /* EMAsyncReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FD92A5395DF3D7BCABB89DA7409BBC6B /* EMAsyncReachability.m */; };
-		1BB35CBAB7EF9E2BB2257FF9396DE067 /* EMAsyncProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = F4E239C1FCF69742517E4298B9260191 /* EMAsyncProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F704B9FF8E04E2E5A91E3348607FF97 /* EMAsyncConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2333AE6DAE09B6EFD17F67D4B8E8025A /* EMAsyncConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22378154E785BDF75F13798F5416E5BA /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 643F612338BBD1A4826964BC90EA31FC /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24640FA282EC6970B7E6E7CA1D95F997 /* EMAsyncNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 274217E6CC57E587CCF05B2948758C39 /* EMAsyncNetworkReachabilityManager.m */; };
-		26384F6613272771CE1159343E7CC012 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2CE5D8B3DB0BD93A35EFEB0B53CB22E1 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2A16B4A60D8CF5006E813AC0DC0CF3 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.m */; };
-		2D11959741A17AA630DE91523F2AEBD9 /* EMAsyncSonry.h in Headers */ = {isa = PBXBuildFile; fileRef = F3446C30F4DB75380CFF708D75E4AAC5 /* EMAsyncSonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DF7C0A4CD75E5C3830BA74D50A77962 /* EMAsyncRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A76DB42C18B813F1D2214E981F8185 /* EMAsyncRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11553BD4C09D717FD1ED764AF6B4389D /* EMAsyncEMAsyncViewController+EMAsyncAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A1BF12627B541EA4E54CC297B5C4E /* EMAsyncEMAsyncViewController+EMAsyncAdditions.m */; };
+		145A9576CC8FCCA91FEB795A233E9574 /* EMAsyncObserverMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC2B55DCA51E5A8AF388F71A3ADC1BF /* EMAsyncObserverMgr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BB7A5D6A2FD8D72549F13C5DFBBDA29 /* EMAsyncUtil_Web.h in Headers */ = {isa = PBXBuildFile; fileRef = 29A3C87E9A18B1C6B4ED00DF4736934C /* EMAsyncUtil_Web.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DA6876190BD9B8CD386C80CD51DD792 /* EMAsyncNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EC71F288028FA7AF6157206770B9F967 /* EMAsyncNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20AFB5399D5B3FDCD9118EF7E211BBD2 /* EMAsyncTabButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E1DD07F187C54D7E89BEC05DF5113496 /* EMAsyncTabButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		230AEEC53A0C106E2DBD2410F524BDE1 /* EMAsyncRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E676A0B61804BAB0E600D65FB8F169C4 /* EMAsyncRadialGradientLayer.m */; };
+		2337D7A0E05AD9313B2B6FA10787F451 /* EMAsyncUIView+DHQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A96E77BB03F6A84F2EED4BD7E100DA /* EMAsyncUIView+DHQExtension.m */; };
+		23B6783E5022251A76E9E3A518164407 /* EMAsyncNSObject+SSDKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC73F34014659E7B534A34C542B8987 /* EMAsyncNSObject+SSDKProgressHUD.m */; };
+		23F70DDC0E74B8BFAD312CA4811E6182 /* EMAsync_bb@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8316E0E15DD6B62C375A657D7D001C9 /* EMAsync_bb@3x.png */; };
+		2A927DC7CB2D05A8BE2B27DB0E68A792 /* EMAsync_cc@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B578C7698092A4DB838F238FC8CA7D4 /* EMAsync_cc@1x.png */; };
+		2B5BAA51E8B6C1CFF3DBDD5D27D29235 /* EMAsyncTabButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1A406E76FAD48D615FE641BF1329A4 /* EMAsyncTabButton.m */; };
+		2DFCF25AA7519A09EF1F01DF7C71C74A /* JSWebKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F060733A16D54B0BC73AC98DCC4450 /* JSWebKit-dummy.m */; };
+		325B55576B52892F224E29E1E8C49B0A /* EMAsyncSonry.h in Headers */ = {isa = PBXBuildFile; fileRef = D30F9218ECD07F0AE74F041A906221A1 /* EMAsyncSonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32A8FFB4B84C3474CCA36F90DA2EB0E3 /* EMAsync_ee@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE47D4363DA18684F81077EBC42BEC71 /* EMAsync_ee@2x.png */; };
 		355C1322D49E55A8109704B9D547E2C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		38551383A25F09909A88EA02DE10EA61 /* EMAsyncEMAsyncView+EMAsyncAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 14C82A2EB07E494A64D0034BE7AFA303 /* EMAsyncEMAsyncView+EMAsyncAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3BFF3A9D1B67777A5EEA6E8C1DEF8B51 /* EMAsyncDisplayViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D45FE9204C56C494020CC47F0C10F8C7 /* EMAsyncDisplayViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E98FAAFB30F95989565F7ADCA9030B6 /* EMAsyncObserverMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = 53C05A6C711F94F9203DF290B675139F /* EMAsyncObserverMgr.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48F0DBE153B58C862482F4AB909FB31C /* EMAsyncConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 69245ECAFCAF4C385D9430D65D5BFF81 /* EMAsyncConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4992D1D353892FCE7E1A5F1329B155A4 /* EMAsyncCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4768673E75F8DC2C098DB54832724480 /* EMAsyncCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49FA90AAF4CFA0C5F031B14AAB756DAE /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CC73209E0F2308A921877969F8C98FE /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D20C64487204143FE68DCD9D6884D83 /* EMAsyncNSObject+SSDKProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C86D1608D9BBA8A8F22EAD1691B3D53 /* EMAsyncNSObject+SSDKProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		573B4DF8D579159699765783899B24E9 /* EMAsyncReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 305152A6CE43756480D4F35C7FAF894C /* EMAsyncReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59F2651A9ACBDD0BAA93EDA5DF36FD5B /* EMAsyncRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8965DD4EC53EE810CA1559060ABB4EB0 /* EMAsyncRadialGradientLayer.m */; };
-		5A70430DBF3E50E1A63D8B4D539E1600 /* EMAsyncSSDKProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BE3261EAED910BC621809093FFAEB73 /* EMAsyncSSDKProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5ECD7EA5FC6DAA7EE07C94B50BC04414 /* EMAsyncEMAsyncViewController+EMAsyncAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CA9DE10C75C27069C03201C0FC01B5 /* EMAsyncEMAsyncViewController+EMAsyncAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3972E79D110C9EF144528404E87BAA3F /* EMAsyncNSObject+SSDKProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 3419772BF8C5F9989DD719F5027ED028 /* EMAsyncNSObject+SSDKProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39A1E488E2E45A3B46DEB27F7C5E3FF9 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D2FA5252AFF7B380CAA24FB3934876A8 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C1C89D9E0236E32BFABB8C0333E2857 /* EMAsyncSSDKProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 50B1C01AFF9EE3804A99E11D8C3DA496 /* EMAsyncSSDKProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C4F3B81D0FB0B27E465F998D222BA70 /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 88FF27592FA3CB6658920EEF9A57FA15 /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C7C4B1AC4A8D3F6467764972C743311 /* EMAsync_ProgressHUD_info@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 264E9E240DDB9F287BBE899C94D19711 /* EMAsync_ProgressHUD_info@1x.png */; };
+		3F908607BF97CEF39B6D138968D0A0D9 /* EMAsync_ProgressHUD_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE978D0FFAC9DAF1937D94DCEAA947D /* EMAsync_ProgressHUD_success@2x.png */; };
+		40563ECA237C102AF80327FB439D45AA /* EMAsyncEMAsyncView+EMAsyncAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C20849BB76C84B3E9DA8E2723A66AA30 /* EMAsyncEMAsyncView+EMAsyncAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41C94E116D2D627BCF4D1160573DCC73 /* EMAsyncCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = FF9365D6FC2FF58E6AFCDD002AC52B05 /* EMAsyncCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45E1B382982DA2E7184E212A2B48C7F6 /* EMAsyncReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 304358ACA28291B4A9A9C0204F05D74E /* EMAsyncReachability.m */; };
+		4F36B84ABCBF6E0C6AD508013C5941F2 /* EMAsyncLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3A65C31E0AE4AC4DFD1D902A5C27C5 /* EMAsyncLayoutConstraint.m */; };
+		50ABBDD93FDE628CF0B25C34C196E7D9 /* EMAsyncObserverMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47AB642FCFD8930A75AABF6481A123 /* EMAsyncObserverMgr.m */; };
+		5248FDAA391BEB992DD5667B37C92A36 /* EMAsyncCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B52F7A089AD43BF865641F40C6221DF /* EMAsyncCompositeConstraint.m */; };
+		5A9ABA536B1EFC13B5991497D4C3FCC7 /* EMAsyncIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B9FDA72D1BFF799693E6A1E32086B4 /* EMAsyncIndefiniteAnimatedView.m */; };
+		5C22E43DA25E6B291257CE1CB73658C3 /* EMAsyncConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E9088DEB7C6C496ADCB956681E5E1314 /* EMAsyncConstraintMaker.m */; };
+		5D7A172862B62E8B402E11464C6C3310 /* EMAsyncDisplayViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C682751C914072EEB38081027512AD6C /* EMAsyncDisplayViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1AD37C700AA25466B8AB742CC206B1 /* EMAsyncSSDKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A01D01EA395A0B71D1D0EEB108418757 /* EMAsyncSSDKProgressHUD.m */; };
+		5E970CB1C271D62F6C0293859B35F990 /* EMAsyncDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = A394CDC80683E54D3A07A60C3F52F65B /* EMAsyncDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F21FC9900CC7FD3239F0A31201C6CFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5F6FF08E628BEF3192161A7D0BBDE45E /* Pods-JSWebKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D22D228831CFE59EF8DB974CA0664B /* Pods-JSWebKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6094D7154E794AA4F4D2CB016D76F85E /* EMAsyncDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = C3D646A130E14165B464B78109DEC32D /* EMAsyncDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		638A2E0936BDD82BE343B230D961237C /* EMAsyncObserverMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = FA085C423A32491EB096BD4C2E00CC1F /* EMAsyncObserverMgr.m */; };
-		6591DD524F1643A67A70A50CCB42CD70 /* EMAsyncViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6AAED7A9491DFEEFE844888917111B /* EMAsyncViewConstraint.m */; };
-		662E664013F82F57A1554C5D5BB56974 /* EMAsyncEMAsyncViewController+EMAsyncAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D998CE8EB98D4899D9C096DB3E9CDB /* EMAsyncEMAsyncViewController+EMAsyncAdditions.m */; };
-		6836B5927E338DE843BE9ADCE8AB74A0 /* EMAsyncNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 75984B56B96E8B2A6559B48BFBF7C014 /* EMAsyncNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		714937C7235EBD111E54BEA83A3C7C38 /* EMAsyncUIView+DHQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BC589A4C200F5F1376F226F2131AFCA /* EMAsyncUIView+DHQExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60782C9185598AA4A81F6AAEE8CB7DA5 /* EMAsyncProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B4577CB4C1D2DEF7D5FFB9CA097372 /* EMAsyncProgressAnimatedView.m */; };
+		614366F9D48E5FED28B7E98BD22D35F1 /* EMAsyncDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE3CF1D0CF604D1D6CEB0B92988029 /* EMAsyncDisplayViewController.m */; };
+		622787D3C76ABE59EFECF6738BE894A3 /* EMAsync_bb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23EC23FF455A82F78D767E7E27EC8813 /* EMAsync_bb@2x.png */; };
+		63BF226D1F8ADD350D12D824F6433C47 /* EMAsyncLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = AE77BCACCCA1839141AC1BC6318E2585 /* EMAsyncLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BC2F263AB9018A0E296CB0839FDEF58 /* EMAsyncEMAsyncView+EMAsyncAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 328E6C70A3DBEEC0D10E500B7A5EDAE4 /* EMAsyncEMAsyncView+EMAsyncAdditions.m */; };
+		70C054A0EB321F62F4315D994AB9F97D /* EMAsyncHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 175AC7393109875A31EFA87854334535 /* EMAsyncHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		725113DD67BB8941C7E0D41B162773A3 /* JSWebKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D75EAE7E68AA05744F7792ECD736E046 /* JSWebKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72C541FBA610687474464412B7294E10 /* EMAsync_ProgressHUD_success@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 033FD3BCA24EDF972835557BF80C68DC /* EMAsync_ProgressHUD_success@1x.png */; };
+		782A1FE92DDDD40EB24AD802A5442480 /* EMAsync_mw@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3615DC72D2D7E10931AEEA3B7E2AB277 /* EMAsync_mw@3x.png */; };
+		78C45D707BB3D898AE662EABAF249805 /* EMAsync_ProgressHUD_info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08437C4E5CCE1D6C3190C5FB8DAC5B90 /* EMAsync_ProgressHUD_info@3x.png */; };
+		79945CDF81022C1A61D967ADC4FC22B5 /* EMAsyncConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B2F61CD2ABA16A4FF568859A23090E10 /* EMAsyncConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B515E08C3F93D517F3865B22FE5AE77 /* EMAsyncUIView+DHQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 3472B0E3C779A9092E85FFB3996257C2 /* EMAsyncUIView+DHQExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D2A03C2C3909B96C3495A707EACD336 /* EMAsyncConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CC5E2FB0AADEC28A6CD619B79E9D4E0 /* EMAsyncConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80BFFDDA418D4F9A2EB5922A398B37D7 /* Pods-JSWebKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7ACA2E5BF8B8F2A1EAF3DA703D362A /* Pods-JSWebKit_Tests-dummy.m */; };
-		860E21C47687A4AB44F303331210A51E /* EMAsyncCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 687EEF735ADE7C28DA5C556DD971C460 /* EMAsyncCompositeConstraint.m */; };
-		8750CAA6E67EB647DCC049049C544F5C /* JSWebKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC76E9EBE57FB4BFFC045FDCCF31F257 /* JSWebKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9735208DBFF9FF3F4C054885A8D49000 /* EMAsyncUIButton+DHQStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = E85B838BF225336154B71EB016DC18E5 /* EMAsyncUIButton+DHQStyle.m */; };
-		99AEDF99798FE5514D68D9B6B4460A43 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5243F6B2E84C885812F2298AE0F3F8B4 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B3B1730458D184823AC7B7E3E5E566D /* EMAsyncUIButton+DHQStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = CA8735C7EE2DF4D5FE61ECDB6FB63B22 /* EMAsyncUIButton+DHQStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A136365CE67610F8B5D417A964967B0C /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 06BE25168DDEAC9CF1A56D97339E1A04 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5CBD0ED1C6D81319793C58708172F16 /* EMAsyncNSObject+SSDKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B8A4A58AD7ABFA47BFD11FDD34DE7 /* EMAsyncNSObject+SSDKProgressHUD.m */; };
-		ABD773A1B5D96626C5F540989B05AD56 /* EMAsyncSSDKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCE4D65146035BB98B976BF3E75FFA1 /* EMAsyncSSDKProgressHUD.m */; };
-		AE0FCBAC62955B14B23D92F873557188 /* EMAsyncIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = EB2E227F830E396267E4F3EE1745604C /* EMAsyncIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B172606811A8A82254936E4EBF09F5F0 /* EMAsyncProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE84424A671BDB0555D351FDF4BDF62 /* EMAsyncProgressAnimatedView.m */; };
-		BAA6E76734C6630FA9F5A4BEEF35E4B9 /* EMAsyncUIView+DHQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F915415497621D9DC56E93D6B81D3E62 /* EMAsyncUIView+DHQExtension.m */; };
-		C2B7A40858A3C5E58CC713228DF89887 /* EMAsyncViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 5343B6B1E8BD59B14A5D3C176FBB16ED /* EMAsyncViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C61E03D225E77F5ACBBBCC9703D137AB /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F97065C5F050D6A5DE3206CA989B9E77 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C992FACC7D7709BED79BF5D2113CBCE0 /* EMAsyncEMAsyncView+EMAsyncAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2970423C31402BF8469F664226E48968 /* EMAsyncEMAsyncView+EMAsyncAdditions.m */; };
-		CAC1C673B416A81F012E0CBDB5905FED /* EMAsyncConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C98CE65D0D1A8BC66E5C8B7E35252 /* EMAsyncConstraintMaker.m */; };
-		CC5DD14E52D3C42D59436B86B759D968 /* EMAsyncViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A63FE4F1A6E3784091EA05DEB891EA /* EMAsyncViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF36693E6F87CEDF2AADB86D8759AE58 /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FB22C6BEECB565FA3AE686294DF69E65 /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.m */; };
-		D831140DFC82E9BAE955498D9BA35F46 /* EMAsyncUtil_Web.h in Headers */ = {isa = PBXBuildFile; fileRef = F9D26554C0CC01A3534E43A914C884D5 /* EMAsyncUtil_Web.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81239EF09719AADC00EC5C5DCF342653 /* EMAsyncConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C93F931F582A0D54A8A3F23D01738ADC /* EMAsyncConstraint.m */; };
+		841726550BE95FD09DE6D1781B48E759 /* EMAsync_qq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BC25018F67CEE1AE862278E17389709 /* EMAsync_qq@2x.png */; };
+		86A0F5F0A75D4CFB8BC16A0906D369D2 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E873EB1744CF2E77A353DBE8F6AF5D0 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.m */; };
+		89DB924165DC54035935E8953BC6849C /* EMAsync_ProgressHUD_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588547889D456C21FF29891417798F40 /* EMAsync_ProgressHUD_error@2x.png */; };
+		93250C710401BA0758C97FA5689FC5E2 /* EMAsyncUIButton+DHQStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = CD562AB68FFBC96A1421D8C27BF2018F /* EMAsyncUIButton+DHQStyle.m */; };
+		93BFEDD0641014FC9EE6616FC7716443 /* EMAsync_ee@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 969553109606B4564A1A5E2688D1AE32 /* EMAsync_ee@3x.png */; };
+		98377801D665379BD858673C8BDD2197 /* EMAsync_qq@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBDFAE46C2C06673B07A41519C279329 /* EMAsync_qq@1x.png */; };
+		9859762ECC878D2770E6AB655DE0764C /* EMAsyncIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = C4E95535CCF6B1165A1FE30868402441 /* EMAsyncIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DCF2C8F19729A992DE2212F63768A3B /* EMAsyncViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E96C399E1FCA5EB3AA4A8BD72388992 /* EMAsyncViewConstraint.m */; };
+		A1712E40CD4CC87454182AEB37F05A99 /* EMAsync_ProgressHUD_error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 136131B5C1CDF71921F8A2F8BF05421A /* EMAsync_ProgressHUD_error@3x.png */; };
+		A9DBAF53B1A564BF2EB8930DB3970CE3 /* EMAsync_qq@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFDA6AF7B26F927BD95D0EE09E3E3BFA /* EMAsync_qq@3x.png */; };
+		AB3A7641D2ACCF2DD60B0EB1561BBF31 /* JSWebKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FB51AB55AF2527D08BDC8EA760D7744 /* JSWebKit.bundle */; };
+		AE231876537B7C5455A2A8EEA6F42FA4 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 11795F229187FC7C491ACAFF2BD923B9 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB41FE75845DA41EA9AA045597FE54B8 /* EMAsync_cc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FFDF021B1A52994D77969D03276358 /* EMAsync_cc@2x.png */; };
+		BD3548728B6AE63934F0AFBDA80CECA0 /* EMAsyncProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C7E39A61E35994FAE2E287A2DDCDA58 /* EMAsyncProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE1F892D8A82636A538789C6A105DD9F /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8724BFC6C2FC55CBA5E4B19773A637CA /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C62BE74397880951B8A9FB5B7D6EA2B0 /* EMAsyncProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD6FC0D16CC922DA0BC6853C07C65B /* EMAsyncProgressHUD.m */; };
+		C9FB5D18926234359C6D7398D96B1A4B /* EMAsync_bb@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = B53C26037E9CF26CFBFEE4FB99F22CFA /* EMAsync_bb@1x.png */; };
+		CB3C54F176B95E07F11EBEB182685BC0 /* EMAsync_gg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7462262F4F6C9D35103CB23FF914C26 /* EMAsync_gg@2x.png */; };
+		CD1CCBF0AF3BBED9F462107F45B760C6 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D7D403A6F145568CFBE1A7B9862D333 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDEBA375C956679209D456494A6BA453 /* EMAsyncUtil_Web.m in Sources */ = {isa = PBXBuildFile; fileRef = 856E4E9E159B59F6F7F185E7D30A0CA4 /* EMAsyncUtil_Web.m */; };
+		CFBAFEC7E2DD694F108A028175648BBA /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 937DA130B7663414A8022CA488ED9416 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA17A92A79233837708FFACD670F4ECA /* EMAsyncReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = CA509FCA85962AD307A3DF3BA5C5AA3A /* EMAsyncReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC3EE030C351CA14815CF3F586CEC771 /* Pods-JSWebKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3349DB00C6F54BF29AF9274981645A /* Pods-JSWebKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE946812B460E20724422DD25F0A2674 /* EMAsyncIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CA69D5E4D1E3D3744E5A163BED8DA9 /* EMAsyncIndefiniteAnimatedView.m */; };
-		DFA4E749469DD977AE83D5DFEF248D39 /* EMAsyncDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D0E30D182E1E4DA94006C13C1D6167 /* EMAsyncDisplayViewController.m */; };
-		DFE6CEB1041BC25039428018E4B03475 /* EMAsyncTabButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4648F5FFF7580CF7E5431DA835EFCEA5 /* EMAsyncTabButton.m */; };
-		E39B363C16725FE74582A84E424F2152 /* EMAsyncLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 785CB5CC263723B026061415ABEBF274 /* EMAsyncLayoutConstraint.m */; };
+		E0B6CEA76AE1279AB28C1BF659AF8894 /* EMAsyncViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CF8722AEA5D0BDF6C77EFD85734D3E1 /* EMAsyncViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E49A9321343A68EE5B0260B2CDD3A22C /* EMAsyncViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE938BECCE812CC1A7118031CB34FAD /* EMAsyncViewAttribute.m */; };
+		E589584D6F34A2CBED50DD9D24EC67CB /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE99ED08ED701A7B011E3CB0474C7A7 /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.m */; };
 		E7AD124F16B96E64DA93FA9642AD4C63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E8C972B9D99760BD86357416859E9FD8 /* EMAsyncProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9ECF8D72781455527C0224B9A103C3 /* EMAsyncProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAD254C0D49BB0AE965D9AD7FD692030 /* EMAsyncConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C174DC5F7EF284C8958158E08FB870 /* EMAsyncConstraint.m */; };
-		EDB4B95AA0473228E7CAF02E21B1F750 /* EMAsyncViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 4441363110225BE1C5B55E9062B00FB7 /* EMAsyncViewAttribute.m */; };
-		F231FBFD0ADF00F33F6881B51009E03F /* EMAsyncHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EDFC8784841C29FB241E9504F79211F /* EMAsyncHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F55E8519F32AC81EA7FFD153E3A1A7C9 /* EMAsyncLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2179994274364DF1946680EE923F2A0E /* EMAsyncLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB676A2CF3CC53AC3BE7146FFF0B1CF5 /* EMAsyncRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1127112F1A7D46BC3FB68DE87A0AC2D1 /* EMAsyncRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC9A1CD59A47972690EF146D3EDA215D /* JSWebKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD12672ED054C072BD1B3CF8BF61BC0 /* JSWebKit-dummy.m */; };
-		FE6AC7613905EA8A5B5C2ECC979C03B1 /* EMAsyncProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6FF7C0183D21B60CD72B7A900237A1 /* EMAsyncProgressHUD.m */; };
+		EC6D46B761C3AFC2D6C8F9D0A40ED1C9 /* EMAsync_gg@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFF38E17789D9B99EE5DDF949E1D5EC2 /* EMAsync_gg@1x.png */; };
+		EFB5F4A4D64BBE1B9B7BB87184C48EE1 /* EMAsyncUIButton+DHQStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA82580148BB5F3A7294315B1CA3248 /* EMAsyncUIButton+DHQStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F238C5926E7979A66E36359A37072D90 /* EMAsync_ProgressHUD_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BB05E5473C52E0D72AF72E428ED660 /* EMAsync_ProgressHUD_success@3x.png */; };
+		F8518A9323F95CEBA26E358CEC4A5459 /* EMAsync_ee@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A76734B94B104E1A388042862ABCAB46 /* EMAsync_ee@1x.png */; };
+		FE98762A581E6964BD36F5B1CA1033F0 /* EMAsync_mw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FF623DD8D197C8F3C4E2F289E59F74F /* EMAsync_mw@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,103 +116,146 @@
 			remoteGlobalIDString = 6FBE414BA329E47EB960AC2C7BC58009;
 			remoteInfo = "Pods-JSWebKit_Example";
 		};
+		98A10F87A7BF0586D9F87BC5EFA39BD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE5636F15B6F6580227694595EBC99AF;
+			remoteInfo = "JSWebKit-JSWebKit";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		033FD3BCA24EDF972835557BF80C68DC /* EMAsync_ProgressHUD_success@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_ProgressHUD_success@1x.png"; path = "JSWebKit/Assets/EMAsync_ProgressHUD_success@1x.png"; sourceTree = "<group>"; };
 		0423295273D2D55E69AFA45250BCD795 /* Pods-JSWebKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSWebKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		06BE25168DDEAC9CF1A56D97339E1A04 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
-		0E6FF7C0183D21B60CD72B7A900237A1 /* EMAsyncProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncProgressHUD.m; sourceTree = "<group>"; };
-		0F336AE3AAA60EC31AD1E6D368F5461D /* JSWebKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSWebKit-prefix.pch"; sourceTree = "<group>"; };
-		1127112F1A7D46BC3FB68DE87A0AC2D1 /* EMAsyncRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncRadialGradientLayer.h; sourceTree = "<group>"; };
-		14C82A2EB07E494A64D0034BE7AFA303 /* EMAsyncEMAsyncView+EMAsyncAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMAsyncEMAsyncView+EMAsyncAdditions.h"; sourceTree = "<group>"; };
-		19275AC0A33726E40EA5A855CAB777FC /* EMAsyncTabButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncTabButton.h; sourceTree = "<group>"; };
-		2179994274364DF1946680EE923F2A0E /* EMAsyncLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncLayoutConstraint.h; sourceTree = "<group>"; };
+		046A1BF12627B541EA4E54CC297B5C4E /* EMAsyncEMAsyncViewController+EMAsyncAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMAsyncEMAsyncViewController+EMAsyncAdditions.m"; sourceTree = "<group>"; };
+		05B9FDA72D1BFF799693E6A1E32086B4 /* EMAsyncIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		08437C4E5CCE1D6C3190C5FB8DAC5B90 /* EMAsync_ProgressHUD_info@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_ProgressHUD_info@3x.png"; path = "JSWebKit/Assets/EMAsync_ProgressHUD_info@3x.png"; sourceTree = "<group>"; };
+		08D5E2048AA7F2BC85E879A82145E7B9 /* EMAsync_mw@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_mw@1x.png"; path = "JSWebKit/Assets/EMAsync_mw@1x.png"; sourceTree = "<group>"; };
+		11795F229187FC7C491ACAFF2BD923B9 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMAsyncEMAsyncNSArray+EMAsyncAdditions.h"; sourceTree = "<group>"; };
+		136131B5C1CDF71921F8A2F8BF05421A /* EMAsync_ProgressHUD_error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_ProgressHUD_error@3x.png"; path = "JSWebKit/Assets/EMAsync_ProgressHUD_error@3x.png"; sourceTree = "<group>"; };
+		175AC7393109875A31EFA87854334535 /* EMAsyncHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMAsyncHeader.h; path = JSWebKit/Classes/EMAsyncHeader.h; sourceTree = "<group>"; };
+		18FFDF021B1A52994D77969D03276358 /* EMAsync_cc@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_cc@2x.png"; path = "JSWebKit/Assets/EMAsync_cc@2x.png"; sourceTree = "<group>"; };
+		1EC73F34014659E7B534A34C542B8987 /* EMAsyncNSObject+SSDKProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMAsyncNSObject+SSDKProgressHUD.m"; sourceTree = "<group>"; };
+		20B4577CB4C1D2DEF7D5FFB9CA097372 /* EMAsyncProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncProgressAnimatedView.m; sourceTree = "<group>"; };
 		22AEE9BABFE67429CCA7B9C4A7FEEF81 /* Pods-JSWebKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSWebKit_Tests.modulemap"; sourceTree = "<group>"; };
-		2333AE6DAE09B6EFD17F67D4B8E8025A /* EMAsyncConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncConstraintMaker.h; sourceTree = "<group>"; };
-		274217E6CC57E587CCF05B2948758C39 /* EMAsyncNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		28F4724C921781FC06D0085AC0C0A529 /* JSWebKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSWebKit.xcconfig; sourceTree = "<group>"; };
-		2970423C31402BF8469F664226E48968 /* EMAsyncEMAsyncView+EMAsyncAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMAsyncEMAsyncView+EMAsyncAdditions.m"; sourceTree = "<group>"; };
-		2C9B8A4A58AD7ABFA47BFD11FDD34DE7 /* EMAsyncNSObject+SSDKProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMAsyncNSObject+SSDKProgressHUD.m"; sourceTree = "<group>"; };
-		2CD9E28D6184E39A52ACCA5A0906FB61 /* EMAsyncUtil_Web.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncUtil_Web.m; sourceTree = "<group>"; };
-		2D2A16B4A60D8CF5006E813AC0DC0CF3 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMAsyncEMAsyncNSArray+EMAsyncAdditions.m"; sourceTree = "<group>"; };
+		23EC23FF455A82F78D767E7E27EC8813 /* EMAsync_bb@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_bb@2x.png"; path = "JSWebKit/Assets/EMAsync_bb@2x.png"; sourceTree = "<group>"; };
+		264E9E240DDB9F287BBE899C94D19711 /* EMAsync_ProgressHUD_info@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_ProgressHUD_info@1x.png"; path = "JSWebKit/Assets/EMAsync_ProgressHUD_info@1x.png"; sourceTree = "<group>"; };
+		29A3C87E9A18B1C6B4ED00DF4736934C /* EMAsyncUtil_Web.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncUtil_Web.h; sourceTree = "<group>"; };
+		2A34314585669F1B1BA6879AA68970C6 /* EMAsyncProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncProgressAnimatedView.h; sourceTree = "<group>"; };
+		2B52F7A089AD43BF865641F40C6221DF /* EMAsyncCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncCompositeConstraint.m; sourceTree = "<group>"; };
+		2BC25018F67CEE1AE862278E17389709 /* EMAsync_qq@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_qq@2x.png"; path = "JSWebKit/Assets/EMAsync_qq@2x.png"; sourceTree = "<group>"; };
+		2C47AB642FCFD8930A75AABF6481A123 /* EMAsyncObserverMgr.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncObserverMgr.m; sourceTree = "<group>"; };
+		2D061A033300BF9CA9C08A375F20FD0F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2E3349DB00C6F54BF29AF9274981645A /* Pods-JSWebKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSWebKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		305152A6CE43756480D4F35C7FAF894C /* EMAsyncReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncReachability.h; sourceTree = "<group>"; };
+		2FA82580148BB5F3A7294315B1CA3248 /* EMAsyncUIButton+DHQStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMAsyncUIButton+DHQStyle.h"; sourceTree = "<group>"; };
+		301E5CC8279E8ACBA8677EAD4ABB7F57 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		304358ACA28291B4A9A9C0204F05D74E /* EMAsyncReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncReachability.m; sourceTree = "<group>"; };
 		30A7282A45A2ED132854434A1AE3903C /* Pods_JSWebKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSWebKit_Tests.framework; path = "Pods-JSWebKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3100162CBAADE5E5AB325492A3A10A8F /* JSWebKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSWebKit.modulemap; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34D998CE8EB98D4899D9C096DB3E9CDB /* EMAsyncEMAsyncViewController+EMAsyncAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMAsyncEMAsyncViewController+EMAsyncAdditions.m"; sourceTree = "<group>"; };
-		36A63FE4F1A6E3784091EA05DEB891EA /* EMAsyncViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncViewConstraint.h; sourceTree = "<group>"; };
+		328E6C70A3DBEEC0D10E500B7A5EDAE4 /* EMAsyncEMAsyncView+EMAsyncAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMAsyncEMAsyncView+EMAsyncAdditions.m"; sourceTree = "<group>"; };
+		32A278AE3262EB88B754A7829D40C3FA /* EMAsync_cc@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_cc@3x.png"; path = "JSWebKit/Assets/EMAsync_cc@3x.png"; sourceTree = "<group>"; };
+		3419772BF8C5F9989DD719F5027ED028 /* EMAsyncNSObject+SSDKProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMAsyncNSObject+SSDKProgressHUD.h"; sourceTree = "<group>"; };
+		3472B0E3C779A9092E85FFB3996257C2 /* EMAsyncUIView+DHQExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMAsyncUIView+DHQExtension.h"; sourceTree = "<group>"; };
+		3615DC72D2D7E10931AEEA3B7E2AB277 /* EMAsync_mw@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_mw@3x.png"; path = "JSWebKit/Assets/EMAsync_mw@3x.png"; sourceTree = "<group>"; };
 		377DFBF1E685E2FAD353DD494A56BD63 /* Pods-JSWebKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSWebKit_Example.modulemap"; sourceTree = "<group>"; };
-		3BC589A4C200F5F1376F226F2131AFCA /* EMAsyncUIView+DHQExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMAsyncUIView+DHQExtension.h"; sourceTree = "<group>"; };
-		4441363110225BE1C5B55E9062B00FB7 /* EMAsyncViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncViewAttribute.m; sourceTree = "<group>"; };
-		4648F5FFF7580CF7E5431DA835EFCEA5 /* EMAsyncTabButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncTabButton.m; sourceTree = "<group>"; };
+		3C7E39A61E35994FAE2E287A2DDCDA58 /* EMAsyncProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncProgressHUD.h; sourceTree = "<group>"; };
+		3D7D403A6F145568CFBE1A7B9862D333 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		3E1A406E76FAD48D615FE641BF1329A4 /* EMAsyncTabButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncTabButton.m; sourceTree = "<group>"; };
+		402402B7CC9CA06E82C4BE60FD07D8D5 /* EMAsyncNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		41AA6AF1179AE752C89F720015494E00 /* EMAsyncViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncViewAttribute.h; sourceTree = "<group>"; };
 		46B3BC4BF3C25D25B0ACB234D581A79F /* Pods-JSWebKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSWebKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4768673E75F8DC2C098DB54832724480 /* EMAsyncCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncCompositeConstraint.h; sourceTree = "<group>"; };
-		48CA69D5E4D1E3D3744E5A163BED8DA9 /* EMAsyncIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		499F561115811FA9355EE8B002F65F4B /* Pods-JSWebKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSWebKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4C86D1608D9BBA8A8F22EAD1691B3D53 /* EMAsyncNSObject+SSDKProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMAsyncNSObject+SSDKProgressHUD.h"; sourceTree = "<group>"; };
-		51D0E30D182E1E4DA94006C13C1D6167 /* EMAsyncDisplayViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncDisplayViewController.m; sourceTree = "<group>"; };
-		5243F6B2E84C885812F2298AE0F3F8B4 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMAsyncEMAsyncNSArray+EMAsyncAdditions.h"; sourceTree = "<group>"; };
-		5343B6B1E8BD59B14A5D3C176FBB16ED /* EMAsyncViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncViewAttribute.h; sourceTree = "<group>"; };
-		534F6003F698D1C6C5DEB39B46E14683 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		53C05A6C711F94F9203DF290B675139F /* EMAsyncObserverMgr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncObserverMgr.h; sourceTree = "<group>"; };
+		4FF623DD8D197C8F3C4E2F289E59F74F /* EMAsync_mw@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_mw@2x.png"; path = "JSWebKit/Assets/EMAsync_mw@2x.png"; sourceTree = "<group>"; };
+		50B1C01AFF9EE3804A99E11D8C3DA496 /* EMAsyncSSDKProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncSSDKProgressHUD.h; sourceTree = "<group>"; };
 		56DD1C9333B7C6AE774D45638506E743 /* Pods-JSWebKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSWebKit_Example-dummy.m"; sourceTree = "<group>"; };
-		5EDFC8784841C29FB241E9504F79211F /* EMAsyncHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMAsyncHeader.h; path = JSWebKit/Classes/EMAsyncHeader.h; sourceTree = "<group>"; };
-		643F612338BBD1A4826964BC90EA31FC /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		687EEF735ADE7C28DA5C556DD971C460 /* EMAsyncCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncCompositeConstraint.m; sourceTree = "<group>"; };
-		69245ECAFCAF4C385D9430D65D5BFF81 /* EMAsyncConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncConstraint.h; sourceTree = "<group>"; };
-		6C5B2A628C81F10CB608AA8AF0E75534 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		6CC73209E0F2308A921877969F8C98FE /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.h"; sourceTree = "<group>"; };
-		75984B56B96E8B2A6559B48BFBF7C014 /* EMAsyncNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		785CB5CC263723B026061415ABEBF274 /* EMAsyncLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncLayoutConstraint.m; sourceTree = "<group>"; };
-		7DCE4D65146035BB98B976BF3E75FFA1 /* EMAsyncSSDKProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncSSDKProgressHUD.m; sourceTree = "<group>"; };
-		8965DD4EC53EE810CA1559060ABB4EB0 /* EMAsyncRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncRadialGradientLayer.m; sourceTree = "<group>"; };
+		588547889D456C21FF29891417798F40 /* EMAsync_ProgressHUD_error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_ProgressHUD_error@2x.png"; path = "JSWebKit/Assets/EMAsync_ProgressHUD_error@2x.png"; sourceTree = "<group>"; };
+		5A69D65A9605395C121C19FC0EA8A054 /* EMAsync_gg@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_gg@3x.png"; path = "JSWebKit/Assets/EMAsync_gg@3x.png"; sourceTree = "<group>"; };
+		5ABE3CF1D0CF604D1D6CEB0B92988029 /* EMAsyncDisplayViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncDisplayViewController.m; sourceTree = "<group>"; };
+		5CCD6FC0D16CC922DA0BC6853C07C65B /* EMAsyncProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncProgressHUD.m; sourceTree = "<group>"; };
+		5E96C399E1FCA5EB3AA4A8BD72388992 /* EMAsyncViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncViewConstraint.m; sourceTree = "<group>"; };
+		600F47821EC4842A4C072837609B8994 /* JSWebKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JSWebKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6212A389C8BC63920BF940929CD1FBAC /* EMAsyncEMAsyncViewController+EMAsyncAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMAsyncEMAsyncViewController+EMAsyncAdditions.h"; sourceTree = "<group>"; };
+		64487CAFEBC00AC664FA5BA80459B2F8 /* EMAsync_ProgressHUD_info@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_ProgressHUD_info@2x.png"; path = "JSWebKit/Assets/EMAsync_ProgressHUD_info@2x.png"; sourceTree = "<group>"; };
+		66154BCE2EBE5E35D6B8EF42B7E565AD /* JSWebKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JSWebKit-Info.plist"; sourceTree = "<group>"; };
+		69A76DB42C18B813F1D2214E981F8185 /* EMAsyncRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncRadialGradientLayer.h; sourceTree = "<group>"; };
+		7CC5E2FB0AADEC28A6CD619B79E9D4E0 /* EMAsyncConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncConstraintMaker.h; sourceTree = "<group>"; };
+		7E873EB1744CF2E77A353DBE8F6AF5D0 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMAsyncEMAsyncNSArray+EMAsyncAdditions.m"; sourceTree = "<group>"; };
+		856E4E9E159B59F6F7F185E7D30A0CA4 /* EMAsyncUtil_Web.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncUtil_Web.m; sourceTree = "<group>"; };
+		8724BFC6C2FC55CBA5E4B19773A637CA /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		88FF27592FA3CB6658920EEF9A57FA15 /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.h"; sourceTree = "<group>"; };
+		8AC2B55DCA51E5A8AF388F71A3ADC1BF /* EMAsyncObserverMgr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncObserverMgr.h; sourceTree = "<group>"; };
+		8B578C7698092A4DB838F238FC8CA7D4 /* EMAsync_cc@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_cc@1x.png"; path = "JSWebKit/Assets/EMAsync_cc@1x.png"; sourceTree = "<group>"; };
 		8C7ACA2E5BF8B8F2A1EAF3DA703D362A /* Pods-JSWebKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSWebKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		92CA9DE10C75C27069C03201C0FC01B5 /* EMAsyncEMAsyncViewController+EMAsyncAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMAsyncEMAsyncViewController+EMAsyncAdditions.h"; sourceTree = "<group>"; };
+		8CF8722AEA5D0BDF6C77EFD85734D3E1 /* EMAsyncViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncViewConstraint.h; sourceTree = "<group>"; };
+		91A96E77BB03F6A84F2EED4BD7E100DA /* EMAsyncUIView+DHQExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMAsyncUIView+DHQExtension.m"; sourceTree = "<group>"; };
+		937DA130B7663414A8022CA488ED9416 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		9450015DC893CED5C6B4573180117E0A /* Pods-JSWebKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSWebKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		969553109606B4564A1A5E2688D1AE32 /* EMAsync_ee@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_ee@3x.png"; path = "JSWebKit/Assets/EMAsync_ee@3x.png"; sourceTree = "<group>"; };
 		9B63A95DC598E540BEA31E33300C83AA /* Pods-JSWebKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSWebKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9BE3261EAED910BC621809093FFAEB73 /* EMAsyncSSDKProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncSSDKProgressHUD.h; sourceTree = "<group>"; };
-		9C04C6BB40B89C257E94EE1B3926314D /* JSWebKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JSWebKit-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0B8383CA820FBFCC155AC05A5EEDC14 /* JSWebKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSWebKit.modulemap; sourceTree = "<group>"; };
-		A52288951894F2AF74D8D08481FFB873 /* JSWebKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JSWebKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FB51AB55AF2527D08BDC8EA760D7744 /* JSWebKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JSWebKit.bundle; path = "JSWebKit-JSWebKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01D01EA395A0B71D1D0EEB108418757 /* EMAsyncSSDKProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncSSDKProgressHUD.m; sourceTree = "<group>"; };
+		A394CDC80683E54D3A07A60C3F52F65B /* EMAsyncDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMAsyncDefine.h; path = JSWebKit/Classes/EMAsyncDefine.h; sourceTree = "<group>"; };
 		A653D37D33DAA6DA67E2DF2C7AC4E382 /* Pods-JSWebKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSWebKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		ACD12672ED054C072BD1B3CF8BF61BC0 /* JSWebKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSWebKit-dummy.m"; sourceTree = "<group>"; };
+		A76734B94B104E1A388042862ABCAB46 /* EMAsync_ee@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_ee@1x.png"; path = "JSWebKit/Assets/EMAsync_ee@1x.png"; sourceTree = "<group>"; };
+		ADE99ED08ED701A7B011E3CB0474C7A7 /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.m"; sourceTree = "<group>"; };
+		AE77BCACCCA1839141AC1BC6318E2585 /* EMAsyncLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncLayoutConstraint.h; sourceTree = "<group>"; };
+		AFF38E17789D9B99EE5DDF949E1D5EC2 /* EMAsync_gg@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_gg@1x.png"; path = "JSWebKit/Assets/EMAsync_gg@1x.png"; sourceTree = "<group>"; };
 		B1D22D228831CFE59EF8DB974CA0664B /* Pods-JSWebKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSWebKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		B1E05DA4EE4FA989E7EA16A30765085A /* Pods-JSWebKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSWebKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		B2F61CD2ABA16A4FF568859A23090E10 /* EMAsyncConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncConstraint.h; sourceTree = "<group>"; };
 		B45B964F1B70EADA029E3D9E87B6EF46 /* Pods_JSWebKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSWebKit_Example.framework; path = "Pods-JSWebKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC76E9EBE57FB4BFFC045FDCCF31F257 /* JSWebKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSWebKit-umbrella.h"; sourceTree = "<group>"; };
-		BFE84424A671BDB0555D351FDF4BDF62 /* EMAsyncProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncProgressAnimatedView.m; sourceTree = "<group>"; };
-		C05351C064A334D48E450F6491B58024 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		B4D88EDA35ED4BC6C9EAF7C76806960B /* EMAsync_ProgressHUD_error@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_ProgressHUD_error@1x.png"; path = "JSWebKit/Assets/EMAsync_ProgressHUD_error@1x.png"; sourceTree = "<group>"; };
+		B53C26037E9CF26CFBFEE4FB99F22CFA /* EMAsync_bb@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_bb@1x.png"; path = "JSWebKit/Assets/EMAsync_bb@1x.png"; sourceTree = "<group>"; };
+		BA3A65C31E0AE4AC4DFD1D902A5C27C5 /* EMAsyncLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncLayoutConstraint.m; sourceTree = "<group>"; };
 		C0EB61493AE8806204C9FFA8898B4560 /* Pods-JSWebKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSWebKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C1A3E68AB662E3A288BF8E4A17EE15F9 /* Pods-JSWebKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSWebKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C3D646A130E14165B464B78109DEC32D /* EMAsyncDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMAsyncDefine.h; path = JSWebKit/Classes/EMAsyncDefine.h; sourceTree = "<group>"; };
-		CA8735C7EE2DF4D5FE61ECDB6FB63B22 /* EMAsyncUIButton+DHQStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMAsyncUIButton+DHQStyle.h"; sourceTree = "<group>"; };
-		D35C98CE65D0D1A8BC66E5C8B7E35252 /* EMAsyncConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncConstraintMaker.m; sourceTree = "<group>"; };
-		D45FE9204C56C494020CC47F0C10F8C7 /* EMAsyncDisplayViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncDisplayViewController.h; sourceTree = "<group>"; };
+		C20849BB76C84B3E9DA8E2723A66AA30 /* EMAsyncEMAsyncView+EMAsyncAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMAsyncEMAsyncView+EMAsyncAdditions.h"; sourceTree = "<group>"; };
+		C4E95535CCF6B1165A1FE30868402441 /* EMAsyncIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		C682751C914072EEB38081027512AD6C /* EMAsyncDisplayViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncDisplayViewController.h; sourceTree = "<group>"; };
+		C93F931F582A0D54A8A3F23D01738ADC /* EMAsyncConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncConstraint.m; sourceTree = "<group>"; };
+		CA509FCA85962AD307A3DF3BA5C5AA3A /* EMAsyncReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncReachability.h; sourceTree = "<group>"; };
+		CD562AB68FFBC96A1421D8C27BF2018F /* EMAsyncUIButton+DHQStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMAsyncUIButton+DHQStyle.m"; sourceTree = "<group>"; };
+		CECA835CD421A7AA8A28E8675AB86B27 /* JSWebKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSWebKit.xcconfig; sourceTree = "<group>"; };
+		D2FA5252AFF7B380CAA24FB3934876A8 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		D30F9218ECD07F0AE74F041A906221A1 /* EMAsyncSonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncSonry.h; sourceTree = "<group>"; };
+		D75EAE7E68AA05744F7792ECD736E046 /* JSWebKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSWebKit-umbrella.h"; sourceTree = "<group>"; };
+		D8316E0E15DD6B62C375A657D7D001C9 /* EMAsync_bb@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_bb@3x.png"; path = "JSWebKit/Assets/EMAsync_bb@3x.png"; sourceTree = "<group>"; };
 		DA096A306FA0BDDF77B5AC9FEF10C531 /* Pods-JSWebKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSWebKit_Example-Info.plist"; sourceTree = "<group>"; };
-		DA9ECF8D72781455527C0224B9A103C3 /* EMAsyncProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncProgressAnimatedView.h; sourceTree = "<group>"; };
-		DD6AAED7A9491DFEEFE844888917111B /* EMAsyncViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncViewConstraint.m; sourceTree = "<group>"; };
+		DBDFAE46C2C06673B07A41519C279329 /* EMAsync_qq@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_qq@1x.png"; path = "JSWebKit/Assets/EMAsync_qq@1x.png"; sourceTree = "<group>"; };
+		DE47D4363DA18684F81077EBC42BEC71 /* EMAsync_ee@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_ee@2x.png"; path = "JSWebKit/Assets/EMAsync_ee@2x.png"; sourceTree = "<group>"; };
+		E1DD07F187C54D7E89BEC05DF5113496 /* EMAsyncTabButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncTabButton.h; sourceTree = "<group>"; };
 		E3E68A0D639E43330D8FE1AA03879336 /* Pods-JSWebKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSWebKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E85B838BF225336154B71EB016DC18E5 /* EMAsyncUIButton+DHQStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMAsyncUIButton+DHQStyle.m"; sourceTree = "<group>"; };
-		EB2E227F830E396267E4F3EE1745604C /* EMAsyncIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		F3446C30F4DB75380CFF708D75E4AAC5 /* EMAsyncSonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncSonry.h; sourceTree = "<group>"; };
-		F4E239C1FCF69742517E4298B9260191 /* EMAsyncProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncProgressHUD.h; sourceTree = "<group>"; };
-		F8C174DC5F7EF284C8958158E08FB870 /* EMAsyncConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncConstraint.m; sourceTree = "<group>"; };
-		F915415497621D9DC56E93D6B81D3E62 /* EMAsyncUIView+DHQExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMAsyncUIView+DHQExtension.m"; sourceTree = "<group>"; };
-		F97065C5F050D6A5DE3206CA989B9E77 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		F9D26554C0CC01A3534E43A914C884D5 /* EMAsyncUtil_Web.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncUtil_Web.h; sourceTree = "<group>"; };
-		FA085C423A32491EB096BD4C2E00CC1F /* EMAsyncObserverMgr.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncObserverMgr.m; sourceTree = "<group>"; };
-		FB22C6BEECB565FA3AE686294DF69E65 /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.m"; sourceTree = "<group>"; };
-		FD92A5395DF3D7BCABB89DA7409BBC6B /* EMAsyncReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncReachability.m; sourceTree = "<group>"; };
+		E676A0B61804BAB0E600D65FB8F169C4 /* EMAsyncRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncRadialGradientLayer.m; sourceTree = "<group>"; };
+		E6913C4C8F4C110F8CB8A255AE9B39D2 /* JSWebKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSWebKit-prefix.pch"; sourceTree = "<group>"; };
+		E7BB05E5473C52E0D72AF72E428ED660 /* EMAsync_ProgressHUD_success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_ProgressHUD_success@3x.png"; path = "JSWebKit/Assets/EMAsync_ProgressHUD_success@3x.png"; sourceTree = "<group>"; };
+		E9088DEB7C6C496ADCB956681E5E1314 /* EMAsyncConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncConstraintMaker.m; sourceTree = "<group>"; };
+		EBE938BECCE812CC1A7118031CB34FAD /* EMAsyncViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMAsyncViewAttribute.m; sourceTree = "<group>"; };
+		EC71F288028FA7AF6157206770B9F967 /* EMAsyncNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		EFE978D0FFAC9DAF1937D94DCEAA947D /* EMAsync_ProgressHUD_success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_ProgressHUD_success@2x.png"; path = "JSWebKit/Assets/EMAsync_ProgressHUD_success@2x.png"; sourceTree = "<group>"; };
+		F0F060733A16D54B0BC73AC98DCC4450 /* JSWebKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSWebKit-dummy.m"; sourceTree = "<group>"; };
+		F7462262F4F6C9D35103CB23FF914C26 /* EMAsync_gg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_gg@2x.png"; path = "JSWebKit/Assets/EMAsync_gg@2x.png"; sourceTree = "<group>"; };
+		F7CB81F78A6B0D6966F01E4E326540FE /* ResourceBundle-JSWebKit-JSWebKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JSWebKit-JSWebKit-Info.plist"; sourceTree = "<group>"; };
 		FF3208A52E644C71308556B1F6A627FB /* JSWebKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSWebKit.framework; path = JSWebKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9365D6FC2FF58E6AFCDD002AC52B05 /* EMAsyncCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMAsyncCompositeConstraint.h; sourceTree = "<group>"; };
+		FFDA6AF7B26F927BD95D0EE09E3E3BFA /* EMAsync_qq@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "EMAsync_qq@3x.png"; path = "JSWebKit/Assets/EMAsync_qq@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A50F71DC5C9827FBF95569AC7F3BA734 /* Frameworks */ = {
+		34B5339D898B076BF030323277190F40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26384F6613272771CE1159343E7CC012 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6919DC116D0CA450697267B81805E87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F21FC9900CC7FD3239F0A31201C6CFA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,76 +278,116 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		221BAABE80E6B24619E105DE0AF1A728 /* Support Files */ = {
+		38EDC29FD5C52850464CAE79DF0BEE19 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A0B8383CA820FBFCC155AC05A5EEDC14 /* JSWebKit.modulemap */,
-				28F4724C921781FC06D0085AC0C0A529 /* JSWebKit.xcconfig */,
-				ACD12672ED054C072BD1B3CF8BF61BC0 /* JSWebKit-dummy.m */,
-				9C04C6BB40B89C257E94EE1B3926314D /* JSWebKit-Info.plist */,
-				0F336AE3AAA60EC31AD1E6D368F5461D /* JSWebKit-prefix.pch */,
-				BC76E9EBE57FB4BFFC045FDCCF31F257 /* JSWebKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JSWebKit";
-			sourceTree = "<group>";
-		};
-		385C6DA275EA2930F059E84FDAAD94DA /* EMAsync */ = {
-			isa = PBXGroup;
-			children = (
-				D45FE9204C56C494020CC47F0C10F8C7 /* EMAsyncDisplayViewController.h */,
-				51D0E30D182E1E4DA94006C13C1D6167 /* EMAsyncDisplayViewController.m */,
-				75984B56B96E8B2A6559B48BFBF7C014 /* EMAsyncNetworkReachabilityManager.h */,
-				274217E6CC57E587CCF05B2948758C39 /* EMAsyncNetworkReachabilityManager.m */,
-				53C05A6C711F94F9203DF290B675139F /* EMAsyncObserverMgr.h */,
-				FA085C423A32491EB096BD4C2E00CC1F /* EMAsyncObserverMgr.m */,
-				305152A6CE43756480D4F35C7FAF894C /* EMAsyncReachability.h */,
-				FD92A5395DF3D7BCABB89DA7409BBC6B /* EMAsyncReachability.m */,
-				19275AC0A33726E40EA5A855CAB777FC /* EMAsyncTabButton.h */,
-				4648F5FFF7580CF7E5431DA835EFCEA5 /* EMAsyncTabButton.m */,
-				CA8735C7EE2DF4D5FE61ECDB6FB63B22 /* EMAsyncUIButton+DHQStyle.h */,
-				E85B838BF225336154B71EB016DC18E5 /* EMAsyncUIButton+DHQStyle.m */,
-				3BC589A4C200F5F1376F226F2131AFCA /* EMAsyncUIView+DHQExtension.h */,
-				F915415497621D9DC56E93D6B81D3E62 /* EMAsyncUIView+DHQExtension.m */,
-				F9D26554C0CC01A3534E43A914C884D5 /* EMAsyncUtil_Web.h */,
-				2CD9E28D6184E39A52ACCA5A0906FB61 /* EMAsyncUtil_Web.m */,
-			);
-			name = EMAsync;
-			path = JSWebKit/Classes/EMAsync;
-			sourceTree = "<group>";
-		};
-		5EAE1F45DBDB747912721569BCE08572 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A52288951894F2AF74D8D08481FFB873 /* JSWebKit.podspec */,
-				534F6003F698D1C6C5DEB39B46E14683 /* LICENSE */,
-				6C5B2A628C81F10CB608AA8AF0E75534 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		90E04B96E75854D6201F287E71F4AC05 /* JSWebKit */ = {
-			isa = PBXGroup;
-			children = (
-				C3D646A130E14165B464B78109DEC32D /* EMAsyncDefine.h */,
-				5EDFC8784841C29FB241E9504F79211F /* EMAsyncHeader.h */,
-				385C6DA275EA2930F059E84FDAAD94DA /* EMAsync */,
-				CB53BDB2C524D53E438F03660089C8F4 /* Lib */,
-				5EAE1F45DBDB747912721569BCE08572 /* Pod */,
-				221BAABE80E6B24619E105DE0AF1A728 /* Support Files */,
-			);
-			name = JSWebKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		A9D26F6AFBD8ED0FF70C72C42745839D /* Products */ = {
-			isa = PBXGroup;
-			children = (
+				9FB51AB55AF2527D08BDC8EA760D7744 /* JSWebKit.bundle */,
 				FF3208A52E644C71308556B1F6A627FB /* JSWebKit.framework */,
 				B45B964F1B70EADA029E3D9E87B6EF46 /* Pods_JSWebKit_Example.framework */,
 				30A7282A45A2ED132854434A1AE3903C /* Pods_JSWebKit_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3B4519242590827D9E65E5D8BC481736 /* EMAsync */ = {
+			isa = PBXGroup;
+			children = (
+				C682751C914072EEB38081027512AD6C /* EMAsyncDisplayViewController.h */,
+				5ABE3CF1D0CF604D1D6CEB0B92988029 /* EMAsyncDisplayViewController.m */,
+				EC71F288028FA7AF6157206770B9F967 /* EMAsyncNetworkReachabilityManager.h */,
+				402402B7CC9CA06E82C4BE60FD07D8D5 /* EMAsyncNetworkReachabilityManager.m */,
+				8AC2B55DCA51E5A8AF388F71A3ADC1BF /* EMAsyncObserverMgr.h */,
+				2C47AB642FCFD8930A75AABF6481A123 /* EMAsyncObserverMgr.m */,
+				CA509FCA85962AD307A3DF3BA5C5AA3A /* EMAsyncReachability.h */,
+				304358ACA28291B4A9A9C0204F05D74E /* EMAsyncReachability.m */,
+				E1DD07F187C54D7E89BEC05DF5113496 /* EMAsyncTabButton.h */,
+				3E1A406E76FAD48D615FE641BF1329A4 /* EMAsyncTabButton.m */,
+				2FA82580148BB5F3A7294315B1CA3248 /* EMAsyncUIButton+DHQStyle.h */,
+				CD562AB68FFBC96A1421D8C27BF2018F /* EMAsyncUIButton+DHQStyle.m */,
+				3472B0E3C779A9092E85FFB3996257C2 /* EMAsyncUIView+DHQExtension.h */,
+				91A96E77BB03F6A84F2EED4BD7E100DA /* EMAsyncUIView+DHQExtension.m */,
+				29A3C87E9A18B1C6B4ED00DF4736934C /* EMAsyncUtil_Web.h */,
+				856E4E9E159B59F6F7F185E7D30A0CA4 /* EMAsyncUtil_Web.m */,
+			);
+			name = EMAsync;
+			path = JSWebKit/Classes/EMAsync;
+			sourceTree = "<group>";
+		};
+		45CD4A5E397E3098782A77F89CF431C0 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				C4E95535CCF6B1165A1FE30868402441 /* EMAsyncIndefiniteAnimatedView.h */,
+				05B9FDA72D1BFF799693E6A1E32086B4 /* EMAsyncIndefiniteAnimatedView.m */,
+				3419772BF8C5F9989DD719F5027ED028 /* EMAsyncNSObject+SSDKProgressHUD.h */,
+				1EC73F34014659E7B534A34C542B8987 /* EMAsyncNSObject+SSDKProgressHUD.m */,
+				2A34314585669F1B1BA6879AA68970C6 /* EMAsyncProgressAnimatedView.h */,
+				20B4577CB4C1D2DEF7D5FFB9CA097372 /* EMAsyncProgressAnimatedView.m */,
+				3C7E39A61E35994FAE2E287A2DDCDA58 /* EMAsyncProgressHUD.h */,
+				5CCD6FC0D16CC922DA0BC6853C07C65B /* EMAsyncProgressHUD.m */,
+				69A76DB42C18B813F1D2214E981F8185 /* EMAsyncRadialGradientLayer.h */,
+				E676A0B61804BAB0E600D65FB8F169C4 /* EMAsyncRadialGradientLayer.m */,
+				50B1C01AFF9EE3804A99E11D8C3DA496 /* EMAsyncSSDKProgressHUD.h */,
+				A01D01EA395A0B71D1D0EEB108418757 /* EMAsyncSSDKProgressHUD.m */,
+			);
+			name = ProgressHUD;
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		6AF701E46DA91CE77B4D62A77ECFC6EA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC665C4D98CCEA6073FFDF23924BB453 /* JSWebKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		89318950DAA5BB140315F8DE5D2F0680 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B53C26037E9CF26CFBFEE4FB99F22CFA /* EMAsync_bb@1x.png */,
+				23EC23FF455A82F78D767E7E27EC8813 /* EMAsync_bb@2x.png */,
+				D8316E0E15DD6B62C375A657D7D001C9 /* EMAsync_bb@3x.png */,
+				8B578C7698092A4DB838F238FC8CA7D4 /* EMAsync_cc@1x.png */,
+				18FFDF021B1A52994D77969D03276358 /* EMAsync_cc@2x.png */,
+				32A278AE3262EB88B754A7829D40C3FA /* EMAsync_cc@3x.png */,
+				A76734B94B104E1A388042862ABCAB46 /* EMAsync_ee@1x.png */,
+				DE47D4363DA18684F81077EBC42BEC71 /* EMAsync_ee@2x.png */,
+				969553109606B4564A1A5E2688D1AE32 /* EMAsync_ee@3x.png */,
+				AFF38E17789D9B99EE5DDF949E1D5EC2 /* EMAsync_gg@1x.png */,
+				F7462262F4F6C9D35103CB23FF914C26 /* EMAsync_gg@2x.png */,
+				5A69D65A9605395C121C19FC0EA8A054 /* EMAsync_gg@3x.png */,
+				08D5E2048AA7F2BC85E879A82145E7B9 /* EMAsync_mw@1x.png */,
+				4FF623DD8D197C8F3C4E2F289E59F74F /* EMAsync_mw@2x.png */,
+				3615DC72D2D7E10931AEEA3B7E2AB277 /* EMAsync_mw@3x.png */,
+				B4D88EDA35ED4BC6C9EAF7C76806960B /* EMAsync_ProgressHUD_error@1x.png */,
+				588547889D456C21FF29891417798F40 /* EMAsync_ProgressHUD_error@2x.png */,
+				136131B5C1CDF71921F8A2F8BF05421A /* EMAsync_ProgressHUD_error@3x.png */,
+				264E9E240DDB9F287BBE899C94D19711 /* EMAsync_ProgressHUD_info@1x.png */,
+				64487CAFEBC00AC664FA5BA80459B2F8 /* EMAsync_ProgressHUD_info@2x.png */,
+				08437C4E5CCE1D6C3190C5FB8DAC5B90 /* EMAsync_ProgressHUD_info@3x.png */,
+				033FD3BCA24EDF972835557BF80C68DC /* EMAsync_ProgressHUD_success@1x.png */,
+				EFE978D0FFAC9DAF1937D94DCEAA947D /* EMAsync_ProgressHUD_success@2x.png */,
+				E7BB05E5473C52E0D72AF72E428ED660 /* EMAsync_ProgressHUD_success@3x.png */,
+				DBDFAE46C2C06673B07A41519C279329 /* EMAsync_qq@1x.png */,
+				2BC25018F67CEE1AE862278E17389709 /* EMAsync_qq@2x.png */,
+				FFDA6AF7B26F927BD95D0EE09E3E3BFA /* EMAsync_qq@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC665C4D98CCEA6073FFDF23924BB453 /* JSWebKit */ = {
+			isa = PBXGroup;
+			children = (
+				A394CDC80683E54D3A07A60C3F52F65B /* EMAsyncDefine.h */,
+				175AC7393109875A31EFA87854334535 /* EMAsyncHeader.h */,
+				3B4519242590827D9E65E5D8BC481736 /* EMAsync */,
+				EF368C78997A381AEEE58A021C485078 /* Lib */,
+				FF19ABCF20E60EB233FF015D17454AA4 /* Pod */,
+				89318950DAA5BB140315F8DE5D2F0680 /* Resources */,
+				ED820A473EAEF1E6CDD99483F5E52069 /* Support Files */,
+			);
+			name = JSWebKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -287,56 +398,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C1BB7A57861E5633105822BBB7BB874E /* SSDKMAS */ = {
-			isa = PBXGroup;
-			children = (
-				4768673E75F8DC2C098DB54832724480 /* EMAsyncCompositeConstraint.h */,
-				687EEF735ADE7C28DA5C556DD971C460 /* EMAsyncCompositeConstraint.m */,
-				69245ECAFCAF4C385D9430D65D5BFF81 /* EMAsyncConstraint.h */,
-				F8C174DC5F7EF284C8958158E08FB870 /* EMAsyncConstraint.m */,
-				2333AE6DAE09B6EFD17F67D4B8E8025A /* EMAsyncConstraintMaker.h */,
-				D35C98CE65D0D1A8BC66E5C8B7E35252 /* EMAsyncConstraintMaker.m */,
-				5243F6B2E84C885812F2298AE0F3F8B4 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.h */,
-				2D2A16B4A60D8CF5006E813AC0DC0CF3 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.m */,
-				6CC73209E0F2308A921877969F8C98FE /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.h */,
-				FB22C6BEECB565FA3AE686294DF69E65 /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.m */,
-				14C82A2EB07E494A64D0034BE7AFA303 /* EMAsyncEMAsyncView+EMAsyncAdditions.h */,
-				2970423C31402BF8469F664226E48968 /* EMAsyncEMAsyncView+EMAsyncAdditions.m */,
-				92CA9DE10C75C27069C03201C0FC01B5 /* EMAsyncEMAsyncViewController+EMAsyncAdditions.h */,
-				34D998CE8EB98D4899D9C096DB3E9CDB /* EMAsyncEMAsyncViewController+EMAsyncAdditions.m */,
-				2179994274364DF1946680EE923F2A0E /* EMAsyncLayoutConstraint.h */,
-				785CB5CC263723B026061415ABEBF274 /* EMAsyncLayoutConstraint.m */,
-				F3446C30F4DB75380CFF708D75E4AAC5 /* EMAsyncSonry.h */,
-				5343B6B1E8BD59B14A5D3C176FBB16ED /* EMAsyncViewAttribute.h */,
-				4441363110225BE1C5B55E9062B00FB7 /* EMAsyncViewAttribute.m */,
-				36A63FE4F1A6E3784091EA05DEB891EA /* EMAsyncViewConstraint.h */,
-				DD6AAED7A9491DFEEFE844888917111B /* EMAsyncViewConstraint.m */,
-				06BE25168DDEAC9CF1A56D97339E1A04 /* MASConstraint+Private.h */,
-				C05351C064A334D48E450F6491B58024 /* MASUtilities.h */,
-				643F612338BBD1A4826964BC90EA31FC /* NSArray+MASShorthandAdditions.h */,
-				F97065C5F050D6A5DE3206CA989B9E77 /* View+MASShorthandAdditions.h */,
-			);
-			name = SSDKMAS;
-			path = SSDKMAS;
-			sourceTree = "<group>";
-		};
-		CB53BDB2C524D53E438F03660089C8F4 /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				E528B68E301A6502797C19E5034C2696 /* ProgressHUD */,
-				C1BB7A57861E5633105822BBB7BB874E /* SSDKMAS */,
-			);
-			name = Lib;
-			path = JSWebKit/Classes/Lib;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				EAEBEB2C74DFEFC9D26D453015F4589B /* Development Pods */,
+				6AF701E46DA91CE77B4D62A77ECFC6EA /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				A9D26F6AFBD8ED0FF70C72C42745839D /* Products */,
+				38EDC29FD5C52850464CAE79DF0BEE19 /* Products */,
 				D5249A38DD9C56B5E18FA10EF8E17A8E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -391,32 +459,72 @@
 			path = "Target Support Files/Pods-JSWebKit_Example";
 			sourceTree = "<group>";
 		};
-		E528B68E301A6502797C19E5034C2696 /* ProgressHUD */ = {
+		ED820A473EAEF1E6CDD99483F5E52069 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EB2E227F830E396267E4F3EE1745604C /* EMAsyncIndefiniteAnimatedView.h */,
-				48CA69D5E4D1E3D3744E5A163BED8DA9 /* EMAsyncIndefiniteAnimatedView.m */,
-				4C86D1608D9BBA8A8F22EAD1691B3D53 /* EMAsyncNSObject+SSDKProgressHUD.h */,
-				2C9B8A4A58AD7ABFA47BFD11FDD34DE7 /* EMAsyncNSObject+SSDKProgressHUD.m */,
-				DA9ECF8D72781455527C0224B9A103C3 /* EMAsyncProgressAnimatedView.h */,
-				BFE84424A671BDB0555D351FDF4BDF62 /* EMAsyncProgressAnimatedView.m */,
-				F4E239C1FCF69742517E4298B9260191 /* EMAsyncProgressHUD.h */,
-				0E6FF7C0183D21B60CD72B7A900237A1 /* EMAsyncProgressHUD.m */,
-				1127112F1A7D46BC3FB68DE87A0AC2D1 /* EMAsyncRadialGradientLayer.h */,
-				8965DD4EC53EE810CA1559060ABB4EB0 /* EMAsyncRadialGradientLayer.m */,
-				9BE3261EAED910BC621809093FFAEB73 /* EMAsyncSSDKProgressHUD.h */,
-				7DCE4D65146035BB98B976BF3E75FFA1 /* EMAsyncSSDKProgressHUD.m */,
+				3100162CBAADE5E5AB325492A3A10A8F /* JSWebKit.modulemap */,
+				CECA835CD421A7AA8A28E8675AB86B27 /* JSWebKit.xcconfig */,
+				F0F060733A16D54B0BC73AC98DCC4450 /* JSWebKit-dummy.m */,
+				66154BCE2EBE5E35D6B8EF42B7E565AD /* JSWebKit-Info.plist */,
+				E6913C4C8F4C110F8CB8A255AE9B39D2 /* JSWebKit-prefix.pch */,
+				D75EAE7E68AA05744F7792ECD736E046 /* JSWebKit-umbrella.h */,
+				F7CB81F78A6B0D6966F01E4E326540FE /* ResourceBundle-JSWebKit-JSWebKit-Info.plist */,
 			);
-			name = ProgressHUD;
-			path = ProgressHUD;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JSWebKit";
 			sourceTree = "<group>";
 		};
-		EAEBEB2C74DFEFC9D26D453015F4589B /* Development Pods */ = {
+		EF368C78997A381AEEE58A021C485078 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				90E04B96E75854D6201F287E71F4AC05 /* JSWebKit */,
+				45CD4A5E397E3098782A77F89CF431C0 /* ProgressHUD */,
+				F6FC7F75E12B8711BBDD0C41E4C683D5 /* SSDKMAS */,
 			);
-			name = "Development Pods";
+			name = Lib;
+			path = JSWebKit/Classes/Lib;
+			sourceTree = "<group>";
+		};
+		F6FC7F75E12B8711BBDD0C41E4C683D5 /* SSDKMAS */ = {
+			isa = PBXGroup;
+			children = (
+				FF9365D6FC2FF58E6AFCDD002AC52B05 /* EMAsyncCompositeConstraint.h */,
+				2B52F7A089AD43BF865641F40C6221DF /* EMAsyncCompositeConstraint.m */,
+				B2F61CD2ABA16A4FF568859A23090E10 /* EMAsyncConstraint.h */,
+				C93F931F582A0D54A8A3F23D01738ADC /* EMAsyncConstraint.m */,
+				7CC5E2FB0AADEC28A6CD619B79E9D4E0 /* EMAsyncConstraintMaker.h */,
+				E9088DEB7C6C496ADCB956681E5E1314 /* EMAsyncConstraintMaker.m */,
+				11795F229187FC7C491ACAFF2BD923B9 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.h */,
+				7E873EB1744CF2E77A353DBE8F6AF5D0 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.m */,
+				88FF27592FA3CB6658920EEF9A57FA15 /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.h */,
+				ADE99ED08ED701A7B011E3CB0474C7A7 /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.m */,
+				C20849BB76C84B3E9DA8E2723A66AA30 /* EMAsyncEMAsyncView+EMAsyncAdditions.h */,
+				328E6C70A3DBEEC0D10E500B7A5EDAE4 /* EMAsyncEMAsyncView+EMAsyncAdditions.m */,
+				6212A389C8BC63920BF940929CD1FBAC /* EMAsyncEMAsyncViewController+EMAsyncAdditions.h */,
+				046A1BF12627B541EA4E54CC297B5C4E /* EMAsyncEMAsyncViewController+EMAsyncAdditions.m */,
+				AE77BCACCCA1839141AC1BC6318E2585 /* EMAsyncLayoutConstraint.h */,
+				BA3A65C31E0AE4AC4DFD1D902A5C27C5 /* EMAsyncLayoutConstraint.m */,
+				D30F9218ECD07F0AE74F041A906221A1 /* EMAsyncSonry.h */,
+				41AA6AF1179AE752C89F720015494E00 /* EMAsyncViewAttribute.h */,
+				EBE938BECCE812CC1A7118031CB34FAD /* EMAsyncViewAttribute.m */,
+				8CF8722AEA5D0BDF6C77EFD85734D3E1 /* EMAsyncViewConstraint.h */,
+				5E96C399E1FCA5EB3AA4A8BD72388992 /* EMAsyncViewConstraint.m */,
+				8724BFC6C2FC55CBA5E4B19773A637CA /* MASConstraint+Private.h */,
+				D2FA5252AFF7B380CAA24FB3934876A8 /* MASUtilities.h */,
+				937DA130B7663414A8022CA488ED9416 /* NSArray+MASShorthandAdditions.h */,
+				3D7D403A6F145568CFBE1A7B9862D333 /* View+MASShorthandAdditions.h */,
+			);
+			name = SSDKMAS;
+			path = SSDKMAS;
+			sourceTree = "<group>";
+		};
+		FF19ABCF20E60EB233FF015D17454AA4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				600F47821EC4842A4C072837609B8994 /* JSWebKit.podspec */,
+				301E5CC8279E8ACBA8677EAD4ABB7F57 /* LICENSE */,
+				2D061A033300BF9CA9C08A375F20FD0F /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -430,50 +538,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2EE91924E5542A29DEBC3F46DF394950 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4992D1D353892FCE7E1A5F1329B155A4 /* EMAsyncCompositeConstraint.h in Headers */,
-				48F0DBE153B58C862482F4AB909FB31C /* EMAsyncConstraint.h in Headers */,
-				1F704B9FF8E04E2E5A91E3348607FF97 /* EMAsyncConstraintMaker.h in Headers */,
-				6094D7154E794AA4F4D2CB016D76F85E /* EMAsyncDefine.h in Headers */,
-				3BFF3A9D1B67777A5EEA6E8C1DEF8B51 /* EMAsyncDisplayViewController.h in Headers */,
-				99AEDF99798FE5514D68D9B6B4460A43 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.h in Headers */,
-				49FA90AAF4CFA0C5F031B14AAB756DAE /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.h in Headers */,
-				38551383A25F09909A88EA02DE10EA61 /* EMAsyncEMAsyncView+EMAsyncAdditions.h in Headers */,
-				5ECD7EA5FC6DAA7EE07C94B50BC04414 /* EMAsyncEMAsyncViewController+EMAsyncAdditions.h in Headers */,
-				F231FBFD0ADF00F33F6881B51009E03F /* EMAsyncHeader.h in Headers */,
-				AE0FCBAC62955B14B23D92F873557188 /* EMAsyncIndefiniteAnimatedView.h in Headers */,
-				F55E8519F32AC81EA7FFD153E3A1A7C9 /* EMAsyncLayoutConstraint.h in Headers */,
-				6836B5927E338DE843BE9ADCE8AB74A0 /* EMAsyncNetworkReachabilityManager.h in Headers */,
-				4D20C64487204143FE68DCD9D6884D83 /* EMAsyncNSObject+SSDKProgressHUD.h in Headers */,
-				3E98FAAFB30F95989565F7ADCA9030B6 /* EMAsyncObserverMgr.h in Headers */,
-				E8C972B9D99760BD86357416859E9FD8 /* EMAsyncProgressAnimatedView.h in Headers */,
-				1BB35CBAB7EF9E2BB2257FF9396DE067 /* EMAsyncProgressHUD.h in Headers */,
-				FB676A2CF3CC53AC3BE7146FFF0B1CF5 /* EMAsyncRadialGradientLayer.h in Headers */,
-				573B4DF8D579159699765783899B24E9 /* EMAsyncReachability.h in Headers */,
-				2D11959741A17AA630DE91523F2AEBD9 /* EMAsyncSonry.h in Headers */,
-				5A70430DBF3E50E1A63D8B4D539E1600 /* EMAsyncSSDKProgressHUD.h in Headers */,
-				06E9AB426EEA3FA0A4B3F861E413FAD5 /* EMAsyncTabButton.h in Headers */,
-				9B3B1730458D184823AC7B7E3E5E566D /* EMAsyncUIButton+DHQStyle.h in Headers */,
-				714937C7235EBD111E54BEA83A3C7C38 /* EMAsyncUIView+DHQExtension.h in Headers */,
-				D831140DFC82E9BAE955498D9BA35F46 /* EMAsyncUtil_Web.h in Headers */,
-				C2B7A40858A3C5E58CC713228DF89887 /* EMAsyncViewAttribute.h in Headers */,
-				CC5DD14E52D3C42D59436B86B759D968 /* EMAsyncViewConstraint.h in Headers */,
-				8750CAA6E67EB647DCC049049C544F5C /* JSWebKit-umbrella.h in Headers */,
-				A136365CE67610F8B5D417A964967B0C /* MASConstraint+Private.h in Headers */,
-				0B6DBEAC2A4458E9A1DA89CF16C54D14 /* MASUtilities.h in Headers */,
-				22378154E785BDF75F13798F5416E5BA /* NSArray+MASShorthandAdditions.h in Headers */,
-				C61E03D225E77F5ACBBBCC9703D137AB /* View+MASShorthandAdditions.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		747E4156ACDFB91F9DB4860E02F65C7D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5F6FF08E628BEF3192161A7D0BBDE45E /* Pods-JSWebKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA7238D0359B2F1FCE236842F4A1EB8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C94E116D2D627BCF4D1160573DCC73 /* EMAsyncCompositeConstraint.h in Headers */,
+				79945CDF81022C1A61D967ADC4FC22B5 /* EMAsyncConstraint.h in Headers */,
+				7D2A03C2C3909B96C3495A707EACD336 /* EMAsyncConstraintMaker.h in Headers */,
+				5E970CB1C271D62F6C0293859B35F990 /* EMAsyncDefine.h in Headers */,
+				5D7A172862B62E8B402E11464C6C3310 /* EMAsyncDisplayViewController.h in Headers */,
+				AE231876537B7C5455A2A8EEA6F42FA4 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.h in Headers */,
+				3C4F3B81D0FB0B27E465F998D222BA70 /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.h in Headers */,
+				40563ECA237C102AF80327FB439D45AA /* EMAsyncEMAsyncView+EMAsyncAdditions.h in Headers */,
+				045D6752FD452F763CF81C8C649CCC67 /* EMAsyncEMAsyncViewController+EMAsyncAdditions.h in Headers */,
+				70C054A0EB321F62F4315D994AB9F97D /* EMAsyncHeader.h in Headers */,
+				9859762ECC878D2770E6AB655DE0764C /* EMAsyncIndefiniteAnimatedView.h in Headers */,
+				63BF226D1F8ADD350D12D824F6433C47 /* EMAsyncLayoutConstraint.h in Headers */,
+				1DA6876190BD9B8CD386C80CD51DD792 /* EMAsyncNetworkReachabilityManager.h in Headers */,
+				3972E79D110C9EF144528404E87BAA3F /* EMAsyncNSObject+SSDKProgressHUD.h in Headers */,
+				145A9576CC8FCCA91FEB795A233E9574 /* EMAsyncObserverMgr.h in Headers */,
+				076B805CB61B354D67B9CFF26C92EC18 /* EMAsyncProgressAnimatedView.h in Headers */,
+				BD3548728B6AE63934F0AFBDA80CECA0 /* EMAsyncProgressHUD.h in Headers */,
+				0DF7C0A4CD75E5C3830BA74D50A77962 /* EMAsyncRadialGradientLayer.h in Headers */,
+				DA17A92A79233837708FFACD670F4ECA /* EMAsyncReachability.h in Headers */,
+				325B55576B52892F224E29E1E8C49B0A /* EMAsyncSonry.h in Headers */,
+				3C1C89D9E0236E32BFABB8C0333E2857 /* EMAsyncSSDKProgressHUD.h in Headers */,
+				20AFB5399D5B3FDCD9118EF7E211BBD2 /* EMAsyncTabButton.h in Headers */,
+				EFB5F4A4D64BBE1B9B7BB87184C48EE1 /* EMAsyncUIButton+DHQStyle.h in Headers */,
+				7B515E08C3F93D517F3865B22FE5AE77 /* EMAsyncUIView+DHQExtension.h in Headers */,
+				1BB7A5D6A2FD8D72549F13C5DFBBDA29 /* EMAsyncUtil_Web.h in Headers */,
+				0A3344713A99347FD3C02E261B8F5510 /* EMAsyncViewAttribute.h in Headers */,
+				E0B6CEA76AE1279AB28C1BF659AF8894 /* EMAsyncViewConstraint.h in Headers */,
+				725113DD67BB8941C7E0D41B162773A3 /* JSWebKit-umbrella.h in Headers */,
+				BE1F892D8A82636A538789C6A105DD9F /* MASConstraint+Private.h in Headers */,
+				39A1E488E2E45A3B46DEB27F7C5E3FF9 /* MASUtilities.h in Headers */,
+				CFBAFEC7E2DD694F108A028175648BBA /* NSArray+MASShorthandAdditions.h in Headers */,
+				CD1CCBF0AF3BBED9F462107F45B760C6 /* View+MASShorthandAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,18 +626,36 @@
 			productReference = 30A7282A45A2ED132854434A1AE3903C /* Pods_JSWebKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F2DC883D597B16E3CCB8C30A25E779CD /* JSWebKit */ = {
+		BE5636F15B6F6580227694595EBC99AF /* JSWebKit-JSWebKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DFA2471559EC15BADEC0B901DB92458 /* Build configuration list for PBXNativeTarget "JSWebKit" */;
+			buildConfigurationList = 9582A0F3BEF0A80DF1EF7122E0C02050 /* Build configuration list for PBXNativeTarget "JSWebKit-JSWebKit" */;
 			buildPhases = (
-				2EE91924E5542A29DEBC3F46DF394950 /* Headers */,
-				2D7B2C9104C0CA629C9E08CCB6D46369 /* Sources */,
-				A50F71DC5C9827FBF95569AC7F3BA734 /* Frameworks */,
-				C2F6FD3960DF95688EFD9897E88C12E4 /* Resources */,
+				8B4247CB18B013B4CB5ACCD93BC40D23 /* Sources */,
+				34B5339D898B076BF030323277190F40 /* Frameworks */,
+				F09A12ED3D8E747FEDBDCFFA24B8E704 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = "JSWebKit-JSWebKit";
+			productName = "JSWebKit-JSWebKit";
+			productReference = 9FB51AB55AF2527D08BDC8EA760D7744 /* JSWebKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F2DC883D597B16E3CCB8C30A25E779CD /* JSWebKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D76039D93FE496FCB429D5FDD887B0CA /* Build configuration list for PBXNativeTarget "JSWebKit" */;
+			buildPhases = (
+				BA7238D0359B2F1FCE236842F4A1EB8C /* Headers */,
+				597C814940119F9A1A791B6A69B3CD37 /* Sources */,
+				D6919DC116D0CA450697267B81805E87 /* Frameworks */,
+				4375B88A593AD8426DD18947D907C05A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F3F074153EC93039F160E066A37F270 /* PBXTargetDependency */,
 			);
 			name = JSWebKit;
 			productName = JSWebKit;
@@ -554,11 +680,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = A9D26F6AFBD8ED0FF70C72C42745839D /* Products */;
+			productRefGroup = 38EDC29FD5C52850464CAE79DF0BEE19 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F2DC883D597B16E3CCB8C30A25E779CD /* JSWebKit */,
+				BE5636F15B6F6580227694595EBC99AF /* JSWebKit-JSWebKit */,
 				6FBE414BA329E47EB960AC2C7BC58009 /* Pods-JSWebKit_Example */,
 				AD6A975C33240668967F0403B2A5E068 /* Pods-JSWebKit_Tests */,
 			);
@@ -573,6 +700,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4375B88A593AD8426DD18947D907C05A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3A7641D2ACCF2DD60B0EB1561BBF31 /* JSWebKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4BD695CAE5829E8521DDFC077AEE79AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -580,10 +715,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2F6FD3960DF95688EFD9897E88C12E4 /* Resources */ = {
+		F09A12ED3D8E747FEDBDCFFA24B8E704 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9FB5D18926234359C6D7398D96B1A4B /* EMAsync_bb@1x.png in Resources */,
+				622787D3C76ABE59EFECF6738BE894A3 /* EMAsync_bb@2x.png in Resources */,
+				23F70DDC0E74B8BFAD312CA4811E6182 /* EMAsync_bb@3x.png in Resources */,
+				2A927DC7CB2D05A8BE2B27DB0E68A792 /* EMAsync_cc@1x.png in Resources */,
+				BB41FE75845DA41EA9AA045597FE54B8 /* EMAsync_cc@2x.png in Resources */,
+				02244A40366B035B799E73064FFC50DA /* EMAsync_cc@3x.png in Resources */,
+				F8518A9323F95CEBA26E358CEC4A5459 /* EMAsync_ee@1x.png in Resources */,
+				32A8FFB4B84C3474CCA36F90DA2EB0E3 /* EMAsync_ee@2x.png in Resources */,
+				93BFEDD0641014FC9EE6616FC7716443 /* EMAsync_ee@3x.png in Resources */,
+				EC6D46B761C3AFC2D6C8F9D0A40ED1C9 /* EMAsync_gg@1x.png in Resources */,
+				CB3C54F176B95E07F11EBEB182685BC0 /* EMAsync_gg@2x.png in Resources */,
+				0919D04BD8AE1382D81A08F8E2FCE36C /* EMAsync_gg@3x.png in Resources */,
+				095C77AA8B4CE39C9D01E834D31EF548 /* EMAsync_mw@1x.png in Resources */,
+				FE98762A581E6964BD36F5B1CA1033F0 /* EMAsync_mw@2x.png in Resources */,
+				782A1FE92DDDD40EB24AD802A5442480 /* EMAsync_mw@3x.png in Resources */,
+				0A461AD42032A2DF40F9E600120DA592 /* EMAsync_ProgressHUD_error@1x.png in Resources */,
+				89DB924165DC54035935E8953BC6849C /* EMAsync_ProgressHUD_error@2x.png in Resources */,
+				A1712E40CD4CC87454182AEB37F05A99 /* EMAsync_ProgressHUD_error@3x.png in Resources */,
+				3C7C4B1AC4A8D3F6467764972C743311 /* EMAsync_ProgressHUD_info@1x.png in Resources */,
+				0B520A62451FD12C4EBD0664EE6082C2 /* EMAsync_ProgressHUD_info@2x.png in Resources */,
+				78C45D707BB3D898AE662EABAF249805 /* EMAsync_ProgressHUD_info@3x.png in Resources */,
+				72C541FBA610687474464412B7294E10 /* EMAsync_ProgressHUD_success@1x.png in Resources */,
+				3F908607BF97CEF39B6D138968D0A0D9 /* EMAsync_ProgressHUD_success@2x.png in Resources */,
+				F238C5926E7979A66E36359A37072D90 /* EMAsync_ProgressHUD_success@3x.png in Resources */,
+				98377801D665379BD858673C8BDD2197 /* EMAsync_qq@1x.png in Resources */,
+				841726550BE95FD09DE6D1781B48E759 /* EMAsync_qq@2x.png in Resources */,
+				A9DBAF53B1A564BF2EB8930DB3970CE3 /* EMAsync_qq@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,43 +760,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D7B2C9104C0CA629C9E08CCB6D46369 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				860E21C47687A4AB44F303331210A51E /* EMAsyncCompositeConstraint.m in Sources */,
-				EAD254C0D49BB0AE965D9AD7FD692030 /* EMAsyncConstraint.m in Sources */,
-				CAC1C673B416A81F012E0CBDB5905FED /* EMAsyncConstraintMaker.m in Sources */,
-				DFA4E749469DD977AE83D5DFEF248D39 /* EMAsyncDisplayViewController.m in Sources */,
-				2CE5D8B3DB0BD93A35EFEB0B53CB22E1 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.m in Sources */,
-				CF36693E6F87CEDF2AADB86D8759AE58 /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.m in Sources */,
-				C992FACC7D7709BED79BF5D2113CBCE0 /* EMAsyncEMAsyncView+EMAsyncAdditions.m in Sources */,
-				662E664013F82F57A1554C5D5BB56974 /* EMAsyncEMAsyncViewController+EMAsyncAdditions.m in Sources */,
-				DE946812B460E20724422DD25F0A2674 /* EMAsyncIndefiniteAnimatedView.m in Sources */,
-				E39B363C16725FE74582A84E424F2152 /* EMAsyncLayoutConstraint.m in Sources */,
-				24640FA282EC6970B7E6E7CA1D95F997 /* EMAsyncNetworkReachabilityManager.m in Sources */,
-				A5CBD0ED1C6D81319793C58708172F16 /* EMAsyncNSObject+SSDKProgressHUD.m in Sources */,
-				638A2E0936BDD82BE343B230D961237C /* EMAsyncObserverMgr.m in Sources */,
-				B172606811A8A82254936E4EBF09F5F0 /* EMAsyncProgressAnimatedView.m in Sources */,
-				FE6AC7613905EA8A5B5C2ECC979C03B1 /* EMAsyncProgressHUD.m in Sources */,
-				59F2651A9ACBDD0BAA93EDA5DF36FD5B /* EMAsyncRadialGradientLayer.m in Sources */,
-				1453B92B7D9053D2DA18FFF50642CCE2 /* EMAsyncReachability.m in Sources */,
-				ABD773A1B5D96626C5F540989B05AD56 /* EMAsyncSSDKProgressHUD.m in Sources */,
-				DFE6CEB1041BC25039428018E4B03475 /* EMAsyncTabButton.m in Sources */,
-				9735208DBFF9FF3F4C054885A8D49000 /* EMAsyncUIButton+DHQStyle.m in Sources */,
-				BAA6E76734C6630FA9F5A4BEEF35E4B9 /* EMAsyncUIView+DHQExtension.m in Sources */,
-				1011B56A9B0CB7846C1F4042D64EAB5F /* EMAsyncUtil_Web.m in Sources */,
-				EDB4B95AA0473228E7CAF02E21B1F750 /* EMAsyncViewAttribute.m in Sources */,
-				6591DD524F1643A67A70A50CCB42CD70 /* EMAsyncViewConstraint.m in Sources */,
-				FC9A1CD59A47972690EF146D3EDA215D /* JSWebKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		49129E0C6DE0E961367EE0DB503EEE6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0DE6E3BFE50CC93FCFF81BEFA49A9895 /* Pods-JSWebKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		597C814940119F9A1A791B6A69B3CD37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5248FDAA391BEB992DD5667B37C92A36 /* EMAsyncCompositeConstraint.m in Sources */,
+				81239EF09719AADC00EC5C5DCF342653 /* EMAsyncConstraint.m in Sources */,
+				5C22E43DA25E6B291257CE1CB73658C3 /* EMAsyncConstraintMaker.m in Sources */,
+				614366F9D48E5FED28B7E98BD22D35F1 /* EMAsyncDisplayViewController.m in Sources */,
+				86A0F5F0A75D4CFB8BC16A0906D369D2 /* EMAsyncEMAsyncNSArray+EMAsyncAdditions.m in Sources */,
+				E589584D6F34A2CBED50DD9D24EC67CB /* EMAsyncEMAsyncNSLayoutConstraint+EMAsyncDebugAdditions.m in Sources */,
+				6BC2F263AB9018A0E296CB0839FDEF58 /* EMAsyncEMAsyncView+EMAsyncAdditions.m in Sources */,
+				11553BD4C09D717FD1ED764AF6B4389D /* EMAsyncEMAsyncViewController+EMAsyncAdditions.m in Sources */,
+				5A9ABA536B1EFC13B5991497D4C3FCC7 /* EMAsyncIndefiniteAnimatedView.m in Sources */,
+				4F36B84ABCBF6E0C6AD508013C5941F2 /* EMAsyncLayoutConstraint.m in Sources */,
+				072DAA0D37AF533AF5479471F4164867 /* EMAsyncNetworkReachabilityManager.m in Sources */,
+				23B6783E5022251A76E9E3A518164407 /* EMAsyncNSObject+SSDKProgressHUD.m in Sources */,
+				50ABBDD93FDE628CF0B25C34C196E7D9 /* EMAsyncObserverMgr.m in Sources */,
+				60782C9185598AA4A81F6AAEE8CB7DA5 /* EMAsyncProgressAnimatedView.m in Sources */,
+				C62BE74397880951B8A9FB5B7D6EA2B0 /* EMAsyncProgressHUD.m in Sources */,
+				230AEEC53A0C106E2DBD2410F524BDE1 /* EMAsyncRadialGradientLayer.m in Sources */,
+				45E1B382982DA2E7184E212A2B48C7F6 /* EMAsyncReachability.m in Sources */,
+				5E1AD37C700AA25466B8AB742CC206B1 /* EMAsyncSSDKProgressHUD.m in Sources */,
+				2B5BAA51E8B6C1CFF3DBDD5D27D29235 /* EMAsyncTabButton.m in Sources */,
+				93250C710401BA0758C97FA5689FC5E2 /* EMAsyncUIButton+DHQStyle.m in Sources */,
+				2337D7A0E05AD9313B2B6FA10787F451 /* EMAsyncUIView+DHQExtension.m in Sources */,
+				CDEBA375C956679209D456494A6BA453 /* EMAsyncUtil_Web.m in Sources */,
+				E49A9321343A68EE5B0260B2CDD3A22C /* EMAsyncViewAttribute.m in Sources */,
+				9DCF2C8F19729A992DE2212F63768A3B /* EMAsyncViewConstraint.m in Sources */,
+				2DFCF25AA7519A09EF1F01DF7C71C74A /* JSWebKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4247CB18B013B4CB5ACCD93BC40D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -647,6 +816,12 @@
 			target = 6FBE414BA329E47EB960AC2C7BC58009 /* Pods-JSWebKit_Example */;
 			targetProxy = 5B704D13B824152F0A690CD9F97BF552 /* PBXContainerItemProxy */;
 		};
+		6F3F074153EC93039F160E066A37F270 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JSWebKit-JSWebKit";
+			target = BE5636F15B6F6580227694595EBC99AF /* JSWebKit-JSWebKit */;
+			targetProxy = 98A10F87A7BF0586D9F87BC5EFA39BD0 /* PBXContainerItemProxy */;
+		};
 		71AEC1D3B61BE5766734D79FC30117F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JSWebKit;
@@ -656,9 +831,25 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1CC1792A8805279D3C033A9322545BFC /* Debug */ = {
+		00322A39537B10695D0F2B074A7A3B88 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28F4724C921781FC06D0085AC0C0A529 /* JSWebKit.xcconfig */;
+			baseConfigurationReference = CECA835CD421A7AA8A28E8675AB86B27 /* JSWebKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JSWebKit";
+				INFOPLIST_FILE = "Target Support Files/JSWebKit/ResourceBundle-JSWebKit-JSWebKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JSWebKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		165DBA2E4EF182DC5D3569D29712A417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CECA835CD421A7AA8A28E8675AB86B27 /* JSWebKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -682,10 +873,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		3113ED7FC03E160A70B8ADA14A37F4CA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -814,6 +1006,53 @@
 			};
 			name = Release;
 		};
+		5DD7875ABBE609316A2149AD03E613F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CECA835CD421A7AA8A28E8675AB86B27 /* JSWebKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JSWebKit";
+				INFOPLIST_FILE = "Target Support Files/JSWebKit/ResourceBundle-JSWebKit-JSWebKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JSWebKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		659A226A773DD42B46272AC8836341D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CECA835CD421A7AA8A28E8675AB86B27 /* JSWebKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSWebKit/JSWebKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSWebKit/JSWebKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSWebKit/JSWebKit.modulemap";
+				PRODUCT_MODULE_NAME = JSWebKit;
+				PRODUCT_NAME = JSWebKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -911,38 +1150,6 @@
 			};
 			name = Debug;
 		};
-		E5F1FFBCB3F373FD9626639150B9DA5E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28F4724C921781FC06D0085AC0C0A529 /* JSWebKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JSWebKit/JSWebKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JSWebKit/JSWebKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JSWebKit/JSWebKit.modulemap";
-				PRODUCT_MODULE_NAME = JSWebKit;
-				PRODUCT_NAME = JSWebKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		E6B5957A1502CD10AAEEA06F337E55E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 46B3BC4BF3C25D25B0ACB234D581A79F /* Pods-JSWebKit_Tests.release.xcconfig */;
@@ -989,20 +1196,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DFA2471559EC15BADEC0B901DB92458 /* Build configuration list for PBXNativeTarget "JSWebKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1CC1792A8805279D3C033A9322545BFC /* Debug */,
-				E5F1FFBCB3F373FD9626639150B9DA5E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9582A0F3BEF0A80DF1EF7122E0C02050 /* Build configuration list for PBXNativeTarget "JSWebKit-JSWebKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DD7875ABBE609316A2149AD03E613F3 /* Debug */,
+				00322A39537B10695D0F2B074A7A3B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D76039D93FE496FCB429D5FDD887B0CA /* Build configuration list for PBXNativeTarget "JSWebKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659A226A773DD42B46272AC8836341D0 /* Debug */,
+				165DBA2E4EF182DC5D3569D29712A417 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
