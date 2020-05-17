@@ -348,7 +348,7 @@ createWebViewWithConfiguration:(WKWebViewConfiguration *)configuration
     [self.view addSubview:self.progressView];
     [self.progressView mas_makeConstraints:^(EMAsyncConstraintMaker *make) {
         make.left.right.mas_equalTo(self.view);
-        make.bottom.equalTo(self.webView.mas_top);
+        make.bottom.equalTo(self.webView);
         make.height.mas_equalTo(2);
     }];
 }
