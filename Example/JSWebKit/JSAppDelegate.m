@@ -15,7 +15,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
     EMAsyncDisplayViewController *web = EMAsyncDisplayViewController.new;
-    web.urlSting = @"https://www.huolisport.cn/";
+    web.urlSting = @"http://www.lvyinsport.com.cn/";
 //    web.urlSting = @"http://test2.jiguangtiyu.com/test.html";
     self.window.rootViewController = web;
     return YES;
