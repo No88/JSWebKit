@@ -202,8 +202,8 @@
             [self.webView mas_remakeConstraints:^(EMAsyncConstraintMaker *make) {
                 make.top.equalTo(self.view).offset(kStatusBarHeight);
                 make.left.right.equalTo(self.view);
-                make.bottom.equalTo(self.view).offset(-kBottomSafeHeight);
-//                make.bottom.equalTo(self.bottomBarView.mas_top);
+//                make.bottom.equalTo(self.view).offset(-kBottomSafeHeight);
+                make.bottom.equalTo(self.bottomBarView.mas_top);
             }];
             self.isLandscape = NO;
         }
@@ -327,7 +327,7 @@ createWebViewWithConfiguration:(WKWebViewConfiguration *)configuration
 }
 #pragma mark - ------ UI ------
 - (void)createStructureView {
-//    [self createBottomBarView];
+    [self createBottomBarView];
     [self createNoNetView];
 }
 - (UIImage *)loadBundleImage:(NSString *)imageName {
@@ -388,8 +388,8 @@ createWebViewWithConfiguration:(WKWebViewConfiguration *)configuration
     [self.noNetView mas_makeConstraints:^(EMAsyncConstraintMaker *make) {
         make.left.right.equalTo(self.view);
         make.top.equalTo(self.view);
-//        make.bottom.equalTo(self.bottomBarView.mas_top);
-        make.bottom.equalTo(self.view).offset(-kBottomSafeHeight);
+        make.bottom.equalTo(self.bottomBarView.mas_top);
+//        make.bottom.equalTo(self.view).offset(-kBottomSafeHeight);
     }];
     UIImageView *imageV = [UIImageView new];
     imageV.image = [self loadBundleImage:@"EMAsync_mw"];
@@ -427,8 +427,8 @@ createWebViewWithConfiguration:(WKWebViewConfiguration *)configuration
     [self.webView mas_makeConstraints:^(EMAsyncConstraintMaker *make) {
         make.top.equalTo(self.view).offset(kStatusBarHeight);
         make.left.right.equalTo(self.view);
-        make.bottom.equalTo(self.view).offset(-kBottomSafeHeight);
-//        make.bottom.equalTo(self.bottomBarView.mas_top);
+//        make.bottom.equalTo(self.view).offset(-kBottomSafeHeight);
+        make.bottom.equalTo(self.bottomBarView.mas_top);
     }];
 }
 @end
