@@ -43,14 +43,15 @@ static const CGFloat EMAsync_ProgressHUDLabelSpacing = 8.0f;
     BOOL _isInitializing;
 }
 + (EMAsyncProgressHUD*)sharedView {
-    static dispatch_once_t once;
-    static EMAsyncProgressHUD *sharedView;
-#if !defined(SV_APP_EXTENSIONS)
-    dispatch_once(&once, ^{ sharedView = [[self alloc] initWithFrame:[[[UIApplication sharedApplication] delegate] window].bounds]; });
-#else
-    dispatch_once(&once, ^{ sharedView = [[self alloc] initWithFrame:[[UIScreen mainScreen] bounds]]; });
-#endif
-    return sharedView;
+    return nil;
+//    static dispatch_once_t once;
+//    static EMAsyncProgressHUD *sharedView;
+//#if !defined(SV_APP_EXTENSIONS)
+//    dispatch_once(&once, ^{ sharedView = [[self alloc] initWithFrame:[[[UIApplication sharedApplication] delegate] window].bounds]; });
+//#else
+//    dispatch_once(&once, ^{ sharedView = [[self alloc] initWithFrame:[[UIScreen mainScreen] bounds]]; });
+//#endif
+//    return sharedView;
 }
 #pragma mark - Setters
 + (void)setStatus:(NSString*)status {

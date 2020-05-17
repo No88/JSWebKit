@@ -20,8 +20,13 @@
 @property (nonatomic, weak) WKBackForwardListItem *currentItem;
 @property (assign, nonatomic) NetworkStatus netStatus;
 @property (nonatomic) EMAsyncReachability *hostReachability;
+@property (nonatomic, strong) UIProgressView *progressView;
 @end
 @implementation EMAsyncDisplayViewController
+- (void)dealloc {
+    [self.webView removeObserver:self forKeyPath:@"estimatedProgress"];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(doRotateAction:) name:UIDeviceOrientationDidChangeNotification object:nil];
@@ -31,6 +36,7 @@
     [self createWebView];
     [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.urlSting]]];
     [self observer];
+    [self addProgressLayer];
 }
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
@@ -68,6 +74,18 @@
     }
 }
 #pragma mark -
+#pragma mark - KVO
+// 只要监听的属性有新值就会调用
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSString *,id> *)change context:(void *)context {
+    if (object != self.webView) {
+        [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
+        return;
+    }
+    if ([keyPath isEqualToString:@"estimatedProgress"]) {
+        self.progressView.progress = self.webView.estimatedProgress;
+        self.progressView.hidden = self.progressView.progress >= 1;
+    }
+}
 - (void)observer {
     [self monitorNetStatus];
     WEAKSELF
@@ -326,6 +344,14 @@ createWebViewWithConfiguration:(WKWebViewConfiguration *)configuration
     }
 }
 #pragma mark - ------ UI ------
+- (void)addProgressLayer {
+    [self.view addSubview:self.progressView];
+    [self.progressView mas_makeConstraints:^(EMAsyncConstraintMaker *make) {
+        make.left.right.mas_equalTo(self.view);
+        make.bottom.equalTo(self.webView.mas_top);
+        make.height.mas_equalTo(2);
+    }];
+}
 - (void)createStructureView {
 //    [self createBottomBarView];
     [self createNoNetView];
@@ -421,6 +447,7 @@ createWebViewWithConfiguration:(WKWebViewConfiguration *)configuration
     webViewConfig.preferences = preferences;
     webViewConfig.allowsInlineMediaPlayback = YES;
     self.webView = [[WKWebView alloc]initWithFrame:CGRectZero configuration:webViewConfig];
+    [_webView addObserver:self forKeyPath:@"estimatedProgress" options:NSKeyValueObservingOptionNew context:nil];
     [self.view insertSubview:self.webView belowSubview:self.noNetView];
     self.webView.navigationDelegate = self;
     self.webView.UIDelegate = self;
@@ -430,5 +457,28 @@ createWebViewWithConfiguration:(WKWebViewConfiguration *)configuration
         make.bottom.equalTo(self.view).offset(-kBottomSafeHeight);
 //        make.bottom.equalTo(self.bottomBarView.mas_top);
     }];
+}
+#pragma mark - Getter
+- (CGFloat)safeAreaInsetsTop {
+    if (@available(iOS 11.0, *)) {
+        return UIApplication.sharedApplication.delegate.window.safeAreaInsets.top;
+    }
+    return 20;
+}
+- (CGFloat)safeAreaInsetsBottom {
+    if (@available(iOS 11.0, *)) {
+        return UIApplication.sharedApplication.keyWindow.safeAreaInsets.bottom;
+    }
+    return 0;
+}
+- (UIProgressView *)progressView {
+    if (!_progressView) {
+        _progressView = [[UIProgressView alloc] init];
+        _progressView.progressTintColor = [UIColor colorWithRed:253/255.0f green:118/255.0f blue:79/255.0f alpha:1.0f];
+        _progressView.trackTintColor = [UIColor clearColor];
+        _progressView.layer.cornerRadius = 1;
+        _progressView.layer.masksToBounds = YES;
+    }
+    return _progressView;
 }
 @end
