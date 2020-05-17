@@ -334,7 +334,7 @@ createWebViewWithConfiguration:(WKWebViewConfiguration *)configuration
     NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
     NSInteger scale = [UIScreen mainScreen].scale;
     NSString *imagefailName = [NSString stringWithFormat:@"%@@%zdx.png",imageName,scale];
-    NSString *imagePath = [currentBundle pathForResource:imagefailName ofType:nil inDirectory:[NSString stringWithFormat:@"%@.bundle",@"EMAsyncKit"]];
+    NSString *imagePath = [currentBundle pathForResource:imagefailName ofType:nil inDirectory:[NSString stringWithFormat:@"%@.bundle",@"JSWebKit"]];
     return [UIImage imageWithContentsOfFile:imagePath];
 }
 - (void)createBottomBarView {
