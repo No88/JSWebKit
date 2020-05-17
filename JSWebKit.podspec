@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'JSWebKit/Classes/**/*'
   
   s.resource_bundles = {
-    'JSWebKit' => ['EMAsyncKit/Assets/*']
+    'JSWebKit' => ['JSWebKit/Assets/*']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
